@@ -1,4 +1,4 @@
-import project_test.constants as cst
+import Expedia.constants as cst
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 # from selenium.webdriver.common.keys import Keys
