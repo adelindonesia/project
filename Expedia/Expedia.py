@@ -145,34 +145,34 @@ from selenium.webdriver.chrome.options import Options
 #     test = Expedia()
 #     test.land_first_page()
 
-class Expedia(webdriver.Chrome):
-    def __init__(self, driver_path=r"C:\\Program Files (x86)\\chromedriver.exe", options = Options()) -> None:
-        self.__driver_path = driver_path
-        self.options = options
-        options.add_experimental_option("detach", True)
-        self.add_env_var()
-        super(__class__, self).__init__()
-        self.maximize_window()
+# class Expedia(webdriver.Chrome):
+#     def __init__(self, driver_path=r"C:\\Program Files (x86)\\chromedriver.exe", options = Options()) -> None:
+#         self.__driver_path = driver_path
+#         self.options = options
+#         options.add_experimental_option("detach", True)
+#         self.add_env_var()
+#         super(__class__, self).__init__()
+#         self.maximize_window()
     
-    # =================================================================================================================
-    @property
-    def driver_path(self):
-        return self.__driver_path
+#     # =================================================================================================================
+#     @property
+#     def driver_path(self):
+#         return self.__driver_path
 
-    @driver_path.setter
-    def driver_path(self, driver_path = r"C:\\Program Files (x86)\\chromedriver.exe"):
-        self.__driver_path = driver_path
-    # =================================================================================================================
+#     @driver_path.setter
+#     def driver_path(self, driver_path = r"C:\\Program Files (x86)\\chromedriver.exe"):
+#         self.__driver_path = driver_path
+#     # =================================================================================================================
 
-    # =================================================================================================================
-    @staticmethod
-    def add_env_var(driver_path = r"C:\\Program Files (x86)\\chromedriver.exe"):
-        os.environ["PATH"] += ";" + driver_path
-    # =================================================================================================================
+#     # =================================================================================================================
+#     @staticmethod
+#     def add_env_var(driver_path = r"C:\\Program Files (x86)\\chromedriver.exe"):
+#         os.environ["PATH"] += ";" + driver_path
+#     # =================================================================================================================
     
-    def land_first_page(self):
-       self.get(cst.BASE_URL)
-    #    self.close_pop_up() 
+#     def land_first_page(self):
+#        self.get(cst.BASE_URL)
+#     #    self.close_pop_up() 
     
     # =========================================================================
     # def close_pop_up(self):
