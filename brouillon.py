@@ -72,3 +72,4 @@ search_click = driver.find_element(
     By.CSS_SELECTOR, 'button[data-ui-name="button_search_submit"]'
 ).click()
 # ==========================================================================
+
