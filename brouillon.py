@@ -9,6 +9,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.action_chains import ActionChains
 
+from datetime import datetime
+import time
+
 
 import pandas as pd
 
@@ -30,9 +33,6 @@ pop_up_element = driver.find_element(
 
 flights = driver.find_element(By.LINK_TEXT,"Flights" )
 flights.click()
-
-from datetime import datetime
-import time
 
 
 def dep_country_chooser(dep_city):
@@ -71,6 +71,7 @@ def round_trip_date_chooser(css_from_date, css_to_date):
     dep_date_button.click()
     arr_date_button = driver.find_element(By.CSS_SELECTOR, css_to_date)
     arr_date_button.click()
+    time.sleep(3)
     search_click = driver.find_element(By.CSS_SELECTOR, 'button[data-ui-name="button_search_submit"]')
     search_click.click()
 
@@ -88,27 +89,59 @@ def airline_chooser(airline_1, airline_2):
     time.sleep(2)
     air_1 = driver.find_element(By.CSS_SELECTOR, 'button[class="Actionable-module__root___lQCcK Link-module__root___Jo24k Link-module__root--variant-primary___skVxI"]')
     air_1.click()
-    time.sleep(2)
     air_2 = driver.find_element(By.CSS_SELECTOR, "[data-testid='search_filter_airline_" + airline_2 + "']" )
     air_2.click()
 
 
-def flight_details(details = "flight_card_bound_select_flight"):
-    out_dep_city = []               # outbound departure city
-    out_dep_time = []               # outbound flight departure time
-    out_dep_date = []               # outbound flight departure date
-    out_dep_fly_time = []           # outbound flight time from departure city to stopover city
-    out_stop_over_arr_date = []     # outbound stopover date arrival
-    out_stop_over_city = []         # outbound stopover city
-    out_stop_over_time = []         # length of the outbound stopover
-    out_stop_over_dep_date = []     # outbound stopover date departure
-    out_arr_city = []               # outbound arrival city
-    out_arr_time = []               # outbound flight arrival time
-    out_arr_date = []               # outbound flight arrival date
-    out_arr_fly_time = []           # outbound flight time from stopover city to arrival city
+def flight_details(details = ".css-4o3ibe"):
+    price_roundtrip_ticket = []     # price of the roundtrip ticket in euro/person
+    airline_company = []            # name of the airline company
 
-    flight_card = driver.find_elements(By.CSS_SELECTOR, 'div[data-testid="searchresults_card"]')
+    # out_dep_city = []               # outbound departure city
+    # out_dep_time = []               # outbound flight departure time
+    # out_dep_date = []               # outbound flight departure date
+    # out_dep_fly_time = []           # lenght outbound flight from departure city to stopover city
+    # out_stop_over_arr_date = []     # outbound stopover date arrival
+    # out_stop_over_city = []         # outbound stopover city
+    # out_stop_over_time = []         # length of the outbound stopover
+    # out_stop_over_dep_date = []     # outbound stopover date departure
+    # out_arr_city = []               # outbound arrival city
+    # out_arr_time = []               # outbound flight arrival time
+    # out_arr_date = []               # outbound flight arrival date
+    # out_arr_fly_time = []           # length outbound flight from stopover city to arrival 
     
+    # in_dep_time = []                # inbound flight departure time
+    # in_dep_date = []                # inbound flight departure date
+    # in_dep_fly_time = []            # length of inbound flight from departure city to stopover city
+    # in_stop_over_arr_date = []      # inbound stopover date arrival
+    # in_stop_over_city = []          # inbound stopover city
+    # in_stop_over_time = []          # length of the inbound stopover
+    # in_stop_over_dep_date = []      # inbound stopover date departure
+    # in_arr_time = []                # inbound flight arrival time
+    # in_arr_date = []                # inbound flight arrival date
+    # in_arr_fly_time = []            # length of inbound flight from stopover city to arrival city
+
+    # personal_item = []              # can take value one if it is included in the bagage or zero
+    # carry_on_bag = []               # maximum weight of carry-on bag
+    # checked_bag = []                # maximum weight of checked bag
+
+    info = driver.find_elements(By.CSS_SELECTOR, details)
+
+    for i in range(0, len(info)-1):
+        price_roundtrip_ticket.append(
+            info[0].find_element(
+            By.XPATH, f"//*[@id='flight-card-{i}']/div/div/div[2]/div[2]/div/div[1]/div/div/div"
+        ).text
+        )
+    
+        airline_company.append(
+            info[0].find_element(
+            By.XPATH, f"//*[@id='flight-card-{i}']/div/div/div[1]/div[3]/div/div/div"
+            ).text
+        )
+
+    df = pd.DataFrame(list(zip(price_roundtrip_ticket, airline_company)), columns=["Price", "Airline Company"])
+    return(df)
 
         
 
@@ -116,3 +149,4 @@ dep_country_chooser("brussels")
 arrival_country_chooser("jakarta")
 round_trip_date_chooser(css_from_date='span[data-date="2023-08-01"]', css_to_date='span[data-date="2023-08-15"]')
 airline_chooser(airline_1="Lufthansa", airline_2="Qatar Airways")
+flight_details(details = ".css-4o3ibe")
