@@ -1,0 +1,108 @@
+airline_company,dep_city,arr_city,out_dep_date,out_dep_time,out_duration,out_stop_num,out_arr_date,out_arr_time,in_dep_date,in_dep_time,in_duration,in_stop_num,in_arr_date,in_arr_time,price_ticket,hour_scrap,day_scrap
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,2:10 PM,"1 704,78 €",16,15
+Qatar Airways,BRU,CGK,Aug 1,9:05 AM,17h 35m,1 stop,Aug 2,7:40 AM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 332,02 €",16,15
+Qatar Airways,BRU,CGK,Aug 1,9:05 AM,31h 25m,1 stop,Aug 2,9:30 PM,Aug 15,9:05 AM,34h 05m,1 stop,Aug 16,2:10 PM,"1 708,06 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 472,77 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"1 704,78 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,17h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 472,77 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,18h 05m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 458,54 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,17h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 489,86 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,18h 05m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 475,63 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,19h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 472,77 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,19h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,20h 35m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 458,54 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,17h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 489,86 €",16,15
+Qatar Airways,BRU,CGK,Aug 1,9:05 AM,17h 35m,1 stop,Aug 2,7:40 AM,Aug 15,9:05 AM,34h 05m,1 stop,Aug 16,2:10 PM,"2 475,63 €",16,15
+Qatar Airways,BRU,CGK,Aug 1,9:05 AM,17h 35m,1 stop,Aug 2,7:40 AM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 489,86 €",16,15
+Qatar Airways,BRU,CGK,Aug 1,9:05 AM,31h 25m,1 stop,Aug 2,9:30 PM,Aug 15,9:05 AM,34h 05m,1 stop,Aug 16,2:10 PM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"1 704,78 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 489,86 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,17h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 472,77 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,18h 05m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 458,54 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,17h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 489,86 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,18h 05m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 475,63 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,19h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"1 708,06 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,19h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,20h 35m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 458,54 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,17h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,20h 35m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 475,63 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,19h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,2:40 PM,22h 25m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 472,77 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,21h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 472,77 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,21h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 489,86 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,18h 05m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 472,77 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,22h 25m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 472,77 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,17h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 489,86 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,1:45 PM,23h 20m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 485,59 €",16,15
+Lufthansa,BRU,CGK,Aug 1,2:40 PM,22h 25m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,20h 35m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 475,63 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 20m,2 stops,Aug 16,10:20 AM,"2 691,82 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,22h 40m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 485,59 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,1:45 PM,23h 20m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 502,68 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,19h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,20h 35m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 458,54 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 489,86 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,22h 25m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,2:40 PM,22h 25m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 489,86 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,22h 40m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 502,68 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,23h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 491,82 €",16,15
+Lufthansa,BRU,CGK,Aug 1,1:15 PM,23h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 508,91 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,1:45 PM,23h 20m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 502,68 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,18h 05m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 491,82 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,17h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,21h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,19h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 472,77 €",16,15
+Lufthansa,BRU,CGK,Aug 1,2:40 PM,22h 25m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 489,86 €",16,15
+"Lufthansa, operated by Cityjet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,17h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 20m,2 stops,Aug 16,10:20 AM,"2 691,82 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,20h 35m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 475,63 €",16,15
+Lufthansa,BRU,CGK,Aug 1,1:15 PM,23h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 508,91 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,25h 10m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,18h 10m,2 stops,Aug 16,8:10 AM,"2 485,59 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,25h 10m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 502,68 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,23h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 508,91 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,1:45 PM,23h 20m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 502,68 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,22h 25m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 502,68 €",16,15
+Lufthansa,BRU,CGK,Aug 1,1:15 PM,23h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 508,91 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,18h 05m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 502,68 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,21h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 489,86 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,18h 05m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 20m,2 stops,Aug 16,10:20 AM,"2 508,91 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,22h 25m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 489,86 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,17h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 472,77 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,25h 10m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,18h 35m,2 stops,Aug 16,8:35 AM,"2 502,68 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,22h 40m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 502,68 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,23h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 508,91 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 502,68 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,22h 25m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,19h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 489,86 €",16,15
+Lufthansa,BRU,CGK,Aug 1,2:40 PM,22h 25m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 472,77 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,25h 10m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 472,77 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,22h 40m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 502,68 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,1:45 PM,23h 20m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 502,68 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,22h 40m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 502,68 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,21h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 472,77 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,21h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,22h 25m,2 stops,Aug 16,12:25 PM,"2 502,68 €",16,15
+Lufthansa,BRU,CGK,Aug 1,1:15 PM,23h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 508,91 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,23h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,20h 10m,2 stops,Aug 16,10:10 AM,"2 508,91 €",16,15
+"Lufthansa, operated by City Jet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,22h 25m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 472,77 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,23h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 508,91 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,25h 10m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 508,91 €",16,15
+Lufthansa,BRU,CGK,Aug 1,1:15 PM,23h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 491,82 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,1:45 PM,23h 20m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 472,77 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,17h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 00m,2 stops,Aug 16,1:00 PM,"2 691,82 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,22h 40m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 485,59 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,23h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,25h 50m,2 stops,Aug 16,3:50 PM,"2 491,82 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,25h 10m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,23h 55m,2 stops,Aug 16,1:55 PM,"2 502,68 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,20h 35m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 20m,2 stops,Aug 16,10:20 AM,"2 685,59 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,1:45 PM,23h 20m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 00m,2 stops,Aug 16,1:00 PM,"2 685,59 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,18h 05m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 00m,2 stops,Aug 16,1:00 PM,"2 685,59 €",16,15
+Lufthansa,BRU,CGK,Aug 1,2:40 PM,22h 25m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 20m,2 stops,Aug 16,10:20 AM,"2 691,82 €",16,15
+Lufthansa,BRU,CGK,Aug 1,6:05 PM,19h 00m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 00m,2 stops,Aug 16,1:00 PM,"2 691,82 €",16,15
+Lufthansa,BRU,CGK,Aug 1,8:05 PM,21h 35m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,20h 20m,2 stops,Aug 16,10:20 AM,"2 691,82 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,1:45 PM,23h 20m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 20m,2 stops,Aug 16,10:20 AM,"2 685,59 €",16,15
+Lufthansa,BRU,CGK,Aug 1,4:30 PM,20h 35m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,23h 00m,2 stops,Aug 16,1:00 PM,"2 685,59 €",16,15
+Lufthansa,BRU,CGK,Aug 1,1:15 PM,23h 50m,2 stops,Aug 2,6:05 PM,Aug 15,7:00 PM,20h 20m,2 stops,Aug 16,10:20 AM,"2 691,82 €",16,15
+"Lufthansa, operated by Cityjet For Brussels Airlines",BRU,CGK,Aug 1,7:15 PM,22h 25m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,20h 20m,2 stops,Aug 16,10:20 AM,"2 691,82 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,22h 40m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,23h 00m,2 stops,Aug 16,1:00 PM,"2 685,59 €",16,15
+"Lufthansa, operated by Brussels Airlines",BRU,CGK,Aug 1,7:00 PM,22h 40m,2 stops,Aug 2,10:40 PM,Aug 15,7:00 PM,20h 20m,2 stops,Aug 16,10:20 AM,"2 685,59 €",16,15
