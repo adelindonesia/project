@@ -1,0 +1,135 @@
+out_airline_company,in_airline_company,dep_city,arr_city,out_dep_date,out_dep_time,out_duration,out_stop_num,out_arr_date,out_arr_time,in_dep_date,in_dep_time,in_duration,in_stop_num,in_arr_date,in_arr_time,price_ticket,hour_scrap,day_scrap
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,JFK,Aug 1,9:35 AM,11h 25m,1 stop,Aug 1,3:00 PM,Aug 15,9:50 PM,10h 05m,1 stop,Aug 16,1:55 PM,"1 051,86 €",10,30
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,JFK,Aug 1,9:35 AM,11h 25m,1 stop,Aug 1,3:00 PM,Aug 15,3:55 PM,9h 40m,1 stop,Aug 16,7:35 AM,"1 076,82 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,2:40 PM,11h 25m,1 stop,Aug 1,8:05 PM,Aug 15,9:50 PM,10h 05m,1 stop,Aug 16,1:55 PM,"1 062,10 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:15 AM,11h 30m,1 stop,Aug 1,1:45 PM,Aug 15,9:50 PM,10h 05m,1 stop,Aug 16,1:55 PM,"1 062,10 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,2:40 PM,11h 25m,1 stop,Aug 1,8:05 PM,Aug 15,3:55 PM,9h 40m,1 stop,Aug 16,7:35 AM,"1 062,10 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:15 AM,11h 30m,1 stop,Aug 1,1:45 PM,Aug 15,3:55 PM,9h 40m,1 stop,Aug 16,7:35 AM,"1 087,06 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:50 AM,12h 10m,1 stop,Aug 1,3:00 PM,Aug 15,9:50 PM,10h 05m,1 stop,Aug 16,1:55 PM,"1 051,86 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:50 AM,12h 10m,1 stop,Aug 1,3:00 PM,Aug 15,3:55 PM,9h 40m,1 stop,Aug 16,7:35 AM,"1 087,06 €",10,30
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,JFK,Aug 1,9:35 AM,11h 25m,1 stop,Aug 1,3:00 PM,Aug 15,3:55 PM,10h 40m,1 stop,Aug 16,8:35 AM,"1 076,82 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,2:40 PM,11h 25m,1 stop,Aug 1,8:05 PM,Aug 15,3:55 PM,10h 40m,1 stop,Aug 16,8:35 AM,"1 076,82 €",10,30
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,JFK,Aug 1,7:00 AM,12h 45m,1 stop,Aug 1,1:45 PM,Aug 15,9:50 PM,10h 05m,1 stop,Aug 16,1:55 PM,"1 062,10 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:15 AM,11h 30m,1 stop,Aug 1,1:45 PM,Aug 15,3:55 PM,10h 40m,1 stop,Aug 16,8:35 AM,"1 087,06 €",10,30
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,JFK,Aug 1,7:00 AM,12h 45m,1 stop,Aug 1,1:45 PM,Aug 15,3:55 PM,9h 40m,1 stop,Aug 16,7:35 AM,"1 062,10 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:50 AM,12h 10m,1 stop,Aug 1,3:00 PM,Aug 15,3:55 PM,10h 40m,1 stop,Aug 16,8:35 AM,"1 076,82 €",10,30
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,JFK,Aug 1,9:35 AM,11h 25m,1 stop,Aug 1,3:00 PM,Aug 15,9:50 PM,13h 30m,1 stop,Aug 16,5:20 PM,"1 049,72 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,2:40 PM,11h 25m,1 stop,Aug 1,8:05 PM,Aug 15,9:50 PM,13h 30m,1 stop,Aug 16,5:20 PM,"1 051,95 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:15 AM,11h 30m,1 stop,Aug 1,1:45 PM,Aug 15,9:50 PM,13h 30m,1 stop,Aug 16,5:20 PM,"1 051,95 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:50 AM,12h 10m,1 stop,Aug 1,3:00 PM,Aug 15,9:50 PM,13h 30m,1 stop,Aug 16,5:20 PM,"1 049,72 €",10,30
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,JFK,Aug 1,9:35 AM,11h 25m,1 stop,Aug 1,3:00 PM,Aug 15,9:50 PM,15h 30m,1 stop,Aug 16,7:20 PM,"1 049,72 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,2:40 PM,11h 25m,1 stop,Aug 1,8:05 PM,Aug 15,9:50 PM,15h 30m,1 stop,Aug 16,7:20 PM,"1 051,95 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:15 AM,11h 30m,1 stop,Aug 1,1:45 PM,Aug 15,9:50 PM,15h 30m,1 stop,Aug 16,7:20 PM,"1 051,95 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:50 AM,12h 10m,1 stop,Aug 1,3:00 PM,Aug 15,9:50 PM,15h 30m,1 stop,Aug 16,7:20 PM,"1 051,95 €",10,30
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,JFK,Aug 1,9:35 AM,11h 25m,1 stop,Aug 1,3:00 PM,Aug 15,5:30 PM,16h 20m,1 stop,Aug 16,3:50 PM,"1 071,63 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,2:40 PM,11h 25m,1 stop,Aug 1,8:05 PM,Aug 15,5:30 PM,16h 20m,1 stop,Aug 16,3:50 PM,"1 073,86 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:15 AM,11h 30m,1 stop,Aug 1,1:45 PM,Aug 15,5:30 PM,16h 20m,1 stop,Aug 16,3:50 PM,"1 073,86 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:50 AM,12h 10m,1 stop,Aug 1,3:00 PM,Aug 15,5:30 PM,16h 20m,1 stop,Aug 16,3:50 PM,"1 071,63 €",10,30
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,JFK,Aug 1,9:35 AM,11h 25m,1 stop,Aug 1,3:00 PM,Aug 15,5:30 PM,17h 40m,1 stop,Aug 16,5:10 PM,"1 096,63 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,2:40 PM,11h 25m,1 stop,Aug 1,8:05 PM,Aug 15,5:30 PM,17h 40m,1 stop,Aug 16,5:10 PM,"1 098,86 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,8:50 AM,12h 10m,1 stop,Aug 1,3:00 PM,Aug 15,5:30 PM,17h 40m,1 stop,Aug 16,5:10 PM,"1 096,63 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:05 PM,13h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,18h 05m,1 stop,Aug 16,5:20 PM,"1 946,33 €",10,30
+"Lufthansa, operated by City Jet For Brussels Airlines",Lufthansa,BRU,GRU,Aug 1,7:15 PM,14h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,18h 05m,1 stop,Aug 16,5:20 PM,"1 946,33 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:05 PM,13h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,14h 40m,1 stop,Aug 16,1:55 PM,"2 215,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:05 PM,13h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,20h 05m,1 stop,Aug 16,7:20 PM,"1 946,33 €",10,30
+"Lufthansa, operated by City Jet For Brussels Airlines",Lufthansa,BRU,GRU,Aug 1,7:15 PM,14h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,20h 05m,1 stop,Aug 16,7:20 PM,"1 946,33 €",10,30
+"Lufthansa, operated by Cityjet For Brussels Airlines",Lufthansa,BRU,GRU,Aug 1,7:15 PM,14h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,14h 40m,1 stop,Aug 16,1:55 PM,"2 215,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:05 PM,13h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,16h 35m,2 stops,Aug 16,3:50 PM,"2 084,17 €",10,30
+"Lufthansa, operated by Cityjet For Brussels Airlines",Lufthansa,BRU,GRU,Aug 1,7:15 PM,14h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,16h 35m,2 stops,Aug 16,3:50 PM,"2 084,17 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:05 PM,13h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,17h 55m,2 stops,Aug 16,5:10 PM,"2 084,17 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:05 PM,13h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,17h 55m,2 stops,Aug 16,5:10 PM,"2 084,17 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,18h 05m,1 stop,Aug 16,5:20 PM,"1 946,33 €",10,30
+"Lufthansa, operated by Cityjet For Brussels Airlines",Lufthansa,BRU,GRU,Aug 1,7:15 PM,14h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,17h 55m,2 stops,Aug 16,5:10 PM,"2 084,17 €",10,30
+"Lufthansa, operated by Cityjet For Brussels Airlines",Lufthansa,BRU,GRU,Aug 1,7:15 PM,14h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,17h 55m,2 stops,Aug 16,5:10 PM,"1 946,33 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,20h 05m,1 stop,Aug 16,7:20 PM,"1 946,33 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,14h 40m,1 stop,Aug 16,1:55 PM,"2 215,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:05 PM,13h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,20h 50m,2 stops,Aug 16,8:05 PM,"1 946,33 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,1:15 PM,20h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,20h 05m,1 stop,Aug 16,7:20 PM,"1 946,33 €",10,30
+"Lufthansa, operated by Cityjet For Brussels Airlines",Lufthansa,BRU,GRU,Aug 1,7:15 PM,14h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,20h 50m,2 stops,Aug 16,8:05 PM,"2 084,17 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,6:05 PM,15h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,14h 40m,1 stop,Aug 16,1:55 PM,"2 465,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,16h 35m,2 stops,Aug 16,3:50 PM,"2 084,17 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,1:15 PM,20h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,14h 40m,1 stop,Aug 16,1:55 PM,"2 215,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,6:05 PM,15h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,18h 05m,1 stop,Aug 16,5:20 PM,"2 315,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,17h 55m,2 stops,Aug 16,5:10 PM,"2 084,17 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,17h 55m,2 stops,Aug 16,5:10 PM,"2 084,17 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,1:15 PM,20h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,16h 35m,2 stops,Aug 16,3:50 PM,"2 084,17 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:05 PM,13h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,23h 20m,1 stop,Aug 16,10:35 PM,"2 217,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,1:15 PM,20h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,17h 55m,2 stops,Aug 16,5:10 PM,"2 084,17 €",10,30
+"Lufthansa, operated by Cityjet For Brussels Airlines",Lufthansa,BRU,GRU,Aug 1,7:15 PM,14h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,23h 20m,1 stop,Aug 16,10:35 PM,"2 217,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,6:05 PM,15h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,20h 05m,1 stop,Aug 16,7:20 PM,"2 315,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:05 PM,13h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,32h 20m,1 stop,Aug 17,7:35 AM,"2 315,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,20h 50m,2 stops,Aug 16,8:05 PM,"2 084,17 €",10,30
+"Lufthansa, operated by City Jet For Brussels Airlines",Lufthansa,BRU,GRU,Aug 1,7:15 PM,14h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,32h 20m,1 stop,Aug 17,7:35 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:05 PM,13h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,33h 20m,1 stop,Aug 17,8:35 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,1:15 PM,20h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,20h 50m,2 stops,Aug 16,8:05 PM,"2 084,17 €",10,30
+"Lufthansa, operated by City Jet For Brussels Airlines",Lufthansa,BRU,GRU,Aug 1,7:15 PM,14h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,33h 20m,1 stop,Aug 17,8:35 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:05 PM,13h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,34h 55m,1 stop,Aug 17,10:10 AM,"1 965,27 €",10,30
+"Lufthansa, operated by City Jet For Brussels Airlines",Lufthansa,BRU,GRU,Aug 1,7:15 PM,14h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,34h 55m,1 stop,Aug 17,10:10 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,23h 20m,1 stop,Aug 16,10:35 PM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,32h 20m,1 stop,Aug 17,7:35 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,1:15 PM,20h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,23h 20m,1 stop,Aug 16,10:35 PM,"2 217,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,33h 20m,1 stop,Aug 17,8:35 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,1:15 PM,20h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,33h 20m,1 stop,Aug 17,8:35 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,34h 55m,1 stop,Aug 17,10:10 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,1:15 PM,20h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,34h 55m,1 stop,Aug 17,10:10 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,1:15 PM,12h 50m,1 stop,Aug 1,8:05 PM,Aug 15,3:55 PM,9h 40m,1 stop,Aug 16,7:35 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,11:20 AM,22h 30m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,14h 40m,1 stop,Aug 16,1:55 PM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,9:30 AM,24h 20m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,14h 40m,1 stop,Aug 16,1:55 PM,"8 245,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,6:05 PM,15h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,23h 20m,1 stop,Aug 16,10:35 PM,"8 245,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:15 AM,25h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,14h 40m,1 stop,Aug 16,1:55 PM,"8 245,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,11:20 AM,22h 30m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,18h 05m,1 stop,Aug 16,5:20 PM,"8 245,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,9:30 AM,24h 20m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,18h 05m,1 stop,Aug 16,5:20 PM,"8 245,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,1:15 PM,20h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,33h 20m,1 stop,Aug 17,8:35 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,2:40 PM,19h 10m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,34h 55m,1 stop,Aug 17,10:10 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,1:15 PM,20h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,34h 55m,1 stop,Aug 17,10:10 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,JFK,Aug 1,1:15 PM,12h 50m,1 stop,Aug 1,8:05 PM,Aug 15,3:55 PM,9h 40m,1 stop,Aug 16,7:35 AM,"1 965,27 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,11:20 AM,22h 30m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,14h 40m,1 stop,Aug 16,1:55 PM,"8 245,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,9:30 AM,24h 20m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,14h 40m,1 stop,Aug 16,1:55 PM,"8 245,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,6:05 PM,15h 45m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,23h 20m,1 stop,Aug 16,10:35 PM,"8 245,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,8:15 AM,25h 35m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,14h 40m,1 stop,Aug 16,1:55 PM,"8 245,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,11:20 AM,22h 30m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,18h 05m,1 stop,Aug 16,5:20 PM,"8 245,73 €",10,30
+Lufthansa,Lufthansa,BRU,GRU,Aug 1,9:30 AM,24h 20m,1 stop,Aug 2,4:50 AM,Aug 15,6:15 PM,18h 05m,1 stop,Aug 16,5:20 PM,"8 245,73 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,9:15 AM,11h 10m,1 stop,Aug 1,2:25 PM,Aug 15,4:30 PM,10h 15m,1 stop,Aug 16,8:45 AM,"912,26 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,9:15 AM,11h 10m,1 stop,Aug 1,2:25 PM,Aug 15,4:30 PM,11h 45m,1 stop,Aug 16,10:15 AM,"934,35 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,9:15 AM,11h 10m,1 stop,Aug 1,2:25 PM,Aug 15,8:55 PM,11h 20m,1 stop,Aug 16,2:15 PM,"959,35 €",10,30
+"Swiss, operated by Brussels Airlines",Swiss,BRU,JFK,Aug 1,6:55 AM,11h 50m,1 stop,Aug 1,12:45 PM,Aug 15,4:30 PM,10h 15m,1 stop,Aug 16,8:45 AM,"959,35 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,9:15 AM,11h 10m,1 stop,Aug 1,2:25 PM,Aug 15,7:25 PM,17h 00m,1 stop,Aug 16,6:25 PM,"888,83 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,9:15 AM,11h 10m,1 stop,Aug 1,2:25 PM,Aug 15,4:30 PM,15h 45m,1 stop,Aug 16,2:15 PM,"888,83 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,9:45 AM,12h 30m,1 stop,Aug 1,4:15 PM,Aug 15,4:30 PM,10h 15m,1 stop,Aug 16,8:45 AM,"1 074,87 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,8:15 PM,22h 30m,1 stop,Aug 2,12:45 PM,Aug 15,4:30 PM,10h 15m,1 stop,Aug 16,8:45 AM,"826,87 €",10,30
+"Swiss, operated by Brussels Airlines",Swiss,BRU,JFK,Aug 1,6:55 AM,11h 50m,1 stop,Aug 1,12:45 PM,Aug 15,4:30 PM,11h 45m,1 stop,Aug 16,10:15 AM,"1 074,87 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,9:15 AM,11h 10m,1 stop,Aug 1,2:25 PM,Aug 15,8:55 PM,16h 35m,1 stop,Aug 16,7:30 PM,"959,35 €",10,30
+"Swiss, operated by Brussels Airlines",Swiss,BRU,JFK,Aug 1,6:55 AM,11h 50m,1 stop,Aug 1,12:45 PM,Aug 15,8:55 PM,11h 20m,1 stop,Aug 16,2:15 PM,"959,35 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,8:15 PM,22h 30m,1 stop,Aug 2,12:45 PM,Aug 15,4:30 PM,11h 45m,1 stop,Aug 16,10:15 AM,"826,87 €",10,30
+"Swiss, operated by Brussels Airlines",Swiss,BRU,JFK,Aug 1,6:20 AM,14h 05m,1 stop,Aug 1,2:25 PM,Aug 15,7:25 PM,17h 00m,1 stop,Aug 16,6:25 PM,"826,87 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,9:45 AM,12h 30m,1 stop,Aug 1,4:15 PM,Aug 15,4:30 PM,11h 45m,1 stop,Aug 16,10:15 AM,"1 074,87 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,8:15 PM,22h 30m,1 stop,Aug 2,12:45 PM,Aug 15,8:55 PM,11h 20m,1 stop,Aug 16,2:15 PM,"851,87 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,9:15 AM,11h 10m,1 stop,Aug 1,2:25 PM,Aug 15,7:25 PM,21h 05m,1 stop,Aug 16,10:30 PM,"851,87 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,8:15 PM,22h 30m,1 stop,Aug 2,12:45 PM,Aug 15,7:25 PM,17h 00m,1 stop,Aug 16,6:25 PM,"779,35 €",10,30
+"Swiss, operated by Brussels Airlines",Swiss,BRU,JFK,Aug 1,6:55 AM,11h 50m,1 stop,Aug 1,12:45 PM,Aug 15,7:25 PM,17h 00m,1 stop,Aug 16,6:25 PM,"779,35 €",10,30
+"Swiss, operated by Brussels Airlines",Swiss,BRU,JFK,Aug 1,6:55 AM,11h 50m,1 stop,Aug 1,12:45 PM,Aug 15,4:30 PM,15h 45m,1 stop,Aug 16,2:15 PM,"1 029,35 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,9:45 AM,12h 30m,1 stop,Aug 1,4:15 PM,Aug 15,7:25 PM,17h 00m,1 stop,Aug 16,6:25 PM,"1 029,35 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,9:45 AM,12h 30m,1 stop,Aug 1,4:15 PM,Aug 15,4:30 PM,15h 45m,1 stop,Aug 16,2:15 PM,"1 029,35 €",10,30
+Swiss,Swiss,BRU,JFK,Aug 1,8:15 PM,22h 30m,1 stop,Aug 2,12:45 PM,Aug 15,7:25 PM,21h 05m,1 stop,Aug 16,10:30 PM,"779,35 €",10,30
+"Swiss, operated by Brussels Airlines",Swiss,BRU,JFK,Aug 1,6:55 AM,11h 50m,1 stop,Aug 1,12:45 PM,Aug 15,8:55 PM,16h 35m,1 stop,Aug 16,7:30 PM,"1 099,87 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,8:15 PM,14h 10m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,14h 30m,1 stop,Aug 16,2:15 PM,"1 718,65 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,8:15 PM,14h 10m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,19h 45m,1 stop,Aug 16,7:30 PM,"1 718,65 €",10,30
+"Swiss, operated by Air Baltic Corporation",Swiss,BRU,GRU,Aug 1,3:00 PM,19h 25m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,14h 30m,1 stop,Aug 16,2:15 PM,"1 799,81 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,8:15 PM,14h 10m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,18h 40m,2 stops,Aug 16,6:25 PM,"1 894,62 €",10,30
+"Swiss, operated by Air Baltic Corporation",Swiss,BRU,GRU,Aug 1,3:00 PM,19h 25m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,19h 45m,1 stop,Aug 16,7:30 PM,"1 799,81 €",10,30
+"Swiss, operated by Brussels Airlines",Swiss,BRU,GRU,Aug 1,3:00 PM,19h 25m,2 stops,Aug 2,5:25 AM,Aug 15,6:45 PM,14h 30m,1 stop,Aug 16,2:15 PM,"1 944,62 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,8:15 PM,14h 10m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,22h 45m,2 stops,Aug 16,10:30 PM,"1 894,62 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,8:15 PM,14h 10m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,22h 45m,2 stops,Aug 16,10:30 PM,"1 894,62 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,9:45 AM,24h 40m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,19h 45m,1 stop,Aug 16,7:30 PM,"1 799,81 €",10,30
+"Swiss, operated by Brussels Airlines",Swiss,BRU,GRU,Aug 1,3:00 PM,19h 25m,2 stops,Aug 2,5:25 AM,Aug 15,6:45 PM,19h 45m,1 stop,Aug 16,7:30 PM,"1 944,62 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,9:15 AM,25h 10m,2 stops,Aug 2,5:25 AM,Aug 15,6:45 PM,14h 30m,1 stop,Aug 16,2:15 PM,"1 799,81 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,9:15 AM,25h 10m,2 stops,Aug 2,5:25 AM,Aug 15,6:45 PM,14h 30m,1 stop,Aug 16,2:15 PM,"1 944,62 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,8:15 PM,14h 10m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,33h 00m,1 stop,Aug 17,8:45 AM,"1 799,81 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,8:15 PM,14h 10m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,32h 35m,2 stops,Aug 17,8:20 AM,"1 750,80 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,8:15 PM,14h 10m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,32h 35m,2 stops,Aug 17,8:20 AM,"1 750,80 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,8:15 PM,14h 10m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,34h 30m,1 stop,Aug 17,10:15 AM,"1 799,81 €",10,30
+"Swiss, operated by Air Baltic Corporation",Swiss,BRU,GRU,Aug 1,3:00 PM,19h 25m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,33h 00m,1 stop,Aug 17,8:45 AM,"1 799,81 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,9:15 AM,25h 10m,2 stops,Aug 2,5:25 AM,Aug 15,6:45 PM,19h 45m,1 stop,Aug 16,7:30 PM,"1 944,62 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,9:15 AM,25h 10m,2 stops,Aug 2,5:25 AM,Aug 15,6:45 PM,19h 45m,1 stop,Aug 16,7:30 PM,"1 944,62 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,9:45 AM,24h 40m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,33h 00m,1 stop,Aug 17,8:45 AM,"1 799,81 €",10,30
+Swiss,Swiss,BRU,GRU,Aug 1,9:45 AM,24h 40m,1 stop,Aug 2,5:25 AM,Aug 15,6:45 PM,33h 00m,1 stop,Aug 17,8:45 AM,"1 799,81 €",10,30
