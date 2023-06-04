@@ -1,40 +1,82 @@
 \section{Introduction}
 \label{chap:introduction}
 
-As students, we are constantly seeking opportunities to maximise our limited budgets. One area where we identified potential for cost savings is air travel, particularly during peak travel times such as holidays. During these periods, ticket prices can increase significantly, making it challenging for us to afford travel for visiting family or taking vacations.
+As students, we are constantly seeking opportunities to maximise our limited budgets. 
+One area where we identified potential for cost savings is air travel, particularly during peak travel times such as holidays. 
+During these periods, ticket prices can increase significantly, making it challenging for us to afford travel for visiting family or taking vacations.
 
-With this in mind, we decided to undertake a project to develop a model capable of predicting the prices of round-trip tickets from Lufthansa and Swiss airlines to São Paulo and New York City. By analysing historical data on ticket prices and other relevant factors such as holidays, we aim to identify patterns and trends that can assist us in forecasting future ticket prices. Utilising this information, our goal is to determine the optimal time to purchase a ticket for each destination, allowing us to save money and make the most of our travel budget.
+With this in mind, we decided to undertake a project to develop a model capable of predicting the prices of round-trip tickets from Lufthansa and Swiss airlines to São Paulo and New York City.
+By analysing historical data on ticket prices and other relevant factors such as holidays, we aim to identify patterns and trends that can assist us in forecasting future ticket prices.
+Utilising this information, our goal is to determine the optimal time to purchase a ticket for each destination, allowing us to save money and make the most of our travel budget.
 
-Through this project, we hope to gain valuable experience in working with time series data and developing predictive models while also discovering practical ways to save money on air travel during peak travel times. By focusing on two specific airlines and destinations, we aim to develop a model that is both accurate and applicable to our travel needs.
+Through this project, we hope to gain valuable experience in working with time series data and developing predictive models while also discovering practical ways to save money on air travel during peak travel times.
+By focusing on two specific airlines and destinations, we aim to develop a model that is both accurate and applicable to our travel needs.
 
 \subsection{Research questions/hypotheses}
 \label{sec:quesstion}
-Based on the problem domain described above, list and describe your research questions/hypotheses to be answered in your report. These questions can also be used during your user evaluation, i.e., will the users be able to answer these questions with the help of your tool? 
 
-\section{Background}
-\label{chap:background}
-How do you plan to address the problem and answer your hypotheses? Review and describe the related literature. It is encouraged to make use of the seminar papers already provided, if applicable. What are the previous researches’ questions, results, and solutions and how do they relate to your problem? For example, if your project is about analyzing predictions of the effects of global warming, how have others addressed this problem? Which analysis techniques have they used for their particular data and why? That is, can the related research found help you in your work on your data, analysis, visualization, and evaluation?
+The objective of this study is to create a model that can predict the prices of round-trip tickets for Lufthansa and Swiss flights to Sao Paulo and NYC. 
+The first hypothesis posits that historical ticket prices for these flights exhibit identifiable patterns and trends. 
+By examining ticket price data over time, it is anticipated that these patterns can be discerned and used to forecast future prices. 
+To evaluate this hypothesis, historical ticket price data and other relevant factors will be analyzed to identify patterns and trends. 
+This analysis will employ statistical methods to reveal relationships between ticket prices and other variables such as the time at which flight ticket data is collected.
+
+The second hypothesis proposes that the time at which flight ticket data is collected significantly impacts ticket prices.
+It is anticipated that collecting data at certain times during the week will result in lower ticket prices.
+
+The third hypothesis asserts that a model trained on historical data can accurately predict future ticket prices. 
+To test these hypotheses, a predictive model will be created using machine learning techniques to forecast future ticket prices based on historical data.
+This model will consider a variety of factors known to affect ticket prices, including the time at which flight ticket data is collected and airline-specific factors.
+
+The research questions are: What are the primary factors that influence ticket prices for Lufthansa and Swiss flights to Sao Paulo and NYC? How does the time at which flight ticket data is collected impact ticket prices? When is the optimal time to collect flight ticket data to minimize cost? And how accurately can future ticket prices be predicted using a model trained on historical data?
+In order to answer these questions, the study will involve collecting and analyzing large amounts of data on ticket prices and other relevant factors. This data will be used to train and evaluate the predictive model, allowing us to determine its accuracy and effectiveness in forecasting future ticket prices. By identifying the key factors that influence ticket prices and determining the optimal time to collect flight ticket data, we hope to provide valuable insights for travelers looking to save money on air travel.
 
 
 \section{Data}
 \label{chap:data}
-Briefly describe the dataset and the parameters that will be important for you in order to answer your questions/hypotheses. Indicate the source. If available online, providing a URL link helps the readers.
+In this project, data was collected from the online travel booking platform booking.com.
+This platform was chosen due to its extensive coverage of flights from Lufthansa and Swiss airlines to Sao Paulo and NYC.
+Data collection was conducted on a daily basis, with observations recorded every 2 hours between 8 am and 10 pm.
+This schedule was chosen to capture variations in ticket prices throughout the day.
+In total, 11619 data points were collected over the course of the project.
+
+The data collected includes a range of variables relevant to the research questions.
+These include the price for round-trip tickets for the specified destinations using Lufthansa and Swiss airlines,
+as well as the departure and arrival times/dates for both the outbound and inbound flights.
+Additionally, data on the duration of the outbound and inbound flights and the number of stopovers for both flights were recorded.
+Since the weight allowance for luggage is consistent across both airlines, this variable was not included in the data collection.
+
+Furthermore, the time at which each observation was recorded was also noted in order to facilitate analysis of trends in ticket prices relative to the day/time of the week.
+This information is expected to provide valuable insights into how ticket prices vary over time.
+
+By analyzing this comprehensive dataset, it is anticipated that patterns and trends can be identified that will aid in predicting future ticket prices for these specific airlines and destinations.
+The data collected will be used to train a predictive model that can forecast future ticket prices with a high degree of accuracy.
+This model will be a valuable tool for travelers seeking to minimize costs and maximize their travel budgets.
+
+\subsection{Data collection}
+\label{sec:data}
+sdfghjklmqsdfghjklmsdfghjklmdfgvbhnj
 
 \subsection{Data preparation}
 \label{sec:data}
 Describe what you did in order to use the data for analysis.
 
+
 \section{Approach}
 \label{chap:approach}
-Describe the techniques that you will use for managing and analyzing your data and the tool(s) that you will use for data management/data analysis and evaluation. Motivate why you have chosen a certain method over others and describe how you plan to evaluate your solution. This section should give a detailed account of what you did in order to answer your questions.
+Describe the techniques that you will use for managing and analyzing your data and the tool(s) that you will use for data management/data analysis and evaluation. 
+Motivate why you have chosen a certain method over others and describe how you plan to evaluate your solution. 
+This section should give a detailed account of what you did in order to answer your questions.
 
 \section{Results}
 \label{chap:results}
-Describe your final data analysis results and everything that you discovered on the way the put you forward and you think is worth describing here. Elaborate on the significance of your findings/results and convey your thoughts. 
+Describe your final data analysis results and everything that you discovered on the way the put you forward and you think is worth describing here.
+Elaborate on the significance of your findings/results and convey your thoughts. 
 
 \section{Discussion}
 \label{chap:discussion}
-What do the results mean (their significance and to whom) and how do they answer your research questions/hypotheses? From the evaluation and validation of the tool, what can you conclude? 
+What do the results mean (their significance and to whom) and how do they answer your research questions/hypotheses? 
+From the evaluation and validation of the tool, what can you conclude? 
 
 \subsection{Limitations and Challenges}
 \label{sec:limitation}

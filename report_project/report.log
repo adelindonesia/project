@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  4 JUN 2023 10:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  4 JUN 2023 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -987,7 +987,11 @@ LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
 5.
  (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (report.aux)
+) (report.aux
+
+LaTeX Warning: Label `sec:data' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -1008,8 +1012,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
-
-(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count352
 \scratchdimen=\dimen294
@@ -1077,7 +1080,7 @@ tim
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (sections/00_front_page.tex
-<images/logo.png, id=50, 1175.39125pt x 474.77374pt>
+<images/logo.png, id=54, 1175.39125pt x 474.77374pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 8.
@@ -1120,43 +1123,42 @@ eli/Desktop/SOFTWARE/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}
 
  <./images/logo.png>]) (sections/00_abstract.tex [1
 
-]) (report.toc)
-\tf@toc=\write5
-\openout5 = `report.toc'.
-
- [2] (sections/01_introduction.tex
+]) (sections/01_introduction.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 \section{Approach}
-                        [1
+l.28 
+      [1
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
-1.
-
-(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\ts1lmr.fd
+] [2]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
+5.
+ (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2] [3{C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-) (report.aux)
+)
+[3{C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+[4]) (report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: B31371D166C7CF505D24740771FA9FBC;1313.
+(rerunfilecheck)             Checksum: D66A25AD4FB4743634556F77706CBFF7;1405.
  ) 
 Here is how much of TeX's memory you used:
- 25439 strings out of 476411
- 474802 string characters out of 5791949
+ 25433 strings out of 476411
+ 474690 string characters out of 5791949
  1861845 words of memory out of 5000000
- 45297 multiletter control sequences out of 15000+600000
+ 45293 multiletter control sequences out of 15000+600000
  547606 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,8n,121p,1197b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/
 Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/A
 deli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on report.pdf (6 pages, 132055 bytes).
+Output written on report.pdf (6 pages, 132041 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
