@@ -1,0 +1,1162 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  4 JUN 2023 10:24
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./report.tex
+(report.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-05-15>
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(base/packages.tex
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count193
+\mult@box=\box51
+\multicol@leftmargin=\dimen141
+\c@unbalance=\count194
+\c@collectmore=\count195
+\doublecol@number=\count196
+\multicoltolerance=\count197
+\multicolpretolerance=\count198
+\full@width=\dimen142
+\page@free=\dimen143
+\premulticols=\dimen144
+\postmulticols=\dimen145
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box52
+\last@line=\box53
+\maxbalancingoverflow=\dimen146
+\mult@rightbox=\box54
+\mult@grightbox=\box55
+\mult@firstbox=\box56
+\mult@gfirstbox=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count199
+\c@columnbadness=\count266
+\c@finalcolumnbadness=\count267
+\last@try=\dimen147
+\multicolovershoot=\dimen148
+\multicolundershoot=\dimen149
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count268
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip52
+\subfigcapskip=\skip53
+\subfigcaptopadj=\dimen150
+\subfigbottomskip=\skip54
+\subfigcapmargin=\dimen151
+\subfiglabelskip=\skip55
+\c@subfigure=\count269
+\c@lofdepth=\count270
+\c@subtable=\count271
+\c@lotdepth=\count272
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/subfigure\subfigure.cfg)
+\subfig@top=\skip56
+\subfig@bottom=\skip57
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box96
+\beforetitleunit=\skip58
+\aftertitleunit=\skip59
+\ttl@plus=\dimen154
+\ttl@minus=\dimen155
+\ttl@toksa=\toks19
+\titlewidth=\dimen156
+\titlewidthlast=\dimen157
+\titlewidthfirst=\dimen158
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.s
+ty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/gettitlestring\gettitlestri
+ng.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count273
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count274
+)
+\@linkdim=\dimen159
+\Hy@linkcounter=\count275
+\Hy@pagecounter=\count276
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count277
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4065.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4065.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4065.
+Package hyperref Info: Hyper figures OFF on input line 4182.
+Package hyperref Info: Link nesting OFF on input line 4187.
+Package hyperref Info: Hyper index ON on input line 4190.
+Package hyperref Info: Plain pages OFF on input line 4197.
+Package hyperref Info: Backreferencing OFF on input line 4202.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4449.
+\c@Hy@tempcnt=\count278
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4787.
+\XeTeXLinkMargin=\dimen160
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count279
+\Field@Width=\dimen161
+\Fld@charsize=\dimen162
+Package hyperref Info: Hyper figures OFF on input line 6066.
+Package hyperref Info: Link nesting OFF on input line 6071.
+Package hyperref Info: Hyper index ON on input line 6074.
+Package hyperref Info: backreferencing OFF on input line 6081.
+Package hyperref Info: Link coloring ON on input line 6084.
+Package hyperref Info: Link coloring with OCG OFF on input line 6091.
+Package hyperref Info: PDF/A mode OFF on input line 6096.
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count280
+\c@Item=\count281
+\c@Hfootnote=\count282
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-04-22 v7.00x Hyperref driver for pdfTeX
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count283
+\c@bookmark@seq@number=\count284
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck
+.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/uniquecounter\uniquecounter
+.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip60
+) (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count285
+\lst@gtempboxa=\box97
+\lst@token=\toks20
+\lst@length=\count286
+\lst@currlwidth=\dimen163
+\lst@column=\count287
+\lst@pos=\count288
+\lst@lostspace=\dimen164
+\lst@width=\dimen165
+\lst@newlines=\count289
+\lst@lineno=\count290
+\lst@maxwidth=\dimen166
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count291
+\lst@skipnumbers=\count292
+\lst@framebox=\box98
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/inconsolata\inconsolata.sty
+Package: inconsolata 2019/05/17 v1.12
+
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
+)
+\XKV@depth=\count293
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\zifour@ocount=\count294
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count295
+\float@exts=\toks23
+\float@box=\box99
+\@float@everytoks=\toks24
+\@floatcapt=\box100
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen167
+\ESO@tempdimb=\dimen168
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-05-15 L3 programming layer (loader) 
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/l3backend\l3backend-pdftex.de
+f
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count296
+\l__pdf_internal_box=\box101
+))
+Package: xparse 2023-02-02 L3 Experimental document command parser
+) (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count297
+Package zref Info: New property: abspage on input line 65.
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip61
+\c@mdf@globalstyle@cnt=\count298
+\mdf@skipabove@length=\skip62
+\mdf@skipbelow@length=\skip63
+\mdf@leftmargin@length=\skip64
+\mdf@rightmargin@length=\skip65
+\mdf@innerleftmargin@length=\skip66
+\mdf@innerrightmargin@length=\skip67
+\mdf@innertopmargin@length=\skip68
+\mdf@innerbottommargin@length=\skip69
+\mdf@splittopskip@length=\skip70
+\mdf@splitbottomskip@length=\skip71
+\mdf@outermargin@length=\skip72
+\mdf@innermargin@length=\skip73
+\mdf@linewidth@length=\skip74
+\mdf@innerlinewidth@length=\skip75
+\mdf@middlelinewidth@length=\skip76
+\mdf@outerlinewidth@length=\skip77
+\mdf@roundcorner@length=\skip78
+\mdf@footenotedistance@length=\skip79
+\mdf@userdefinedwidth@length=\skip80
+\mdf@needspace@length=\skip81
+\mdf@frametitleaboveskip@length=\skip82
+\mdf@frametitlebelowskip@length=\skip83
+\mdf@frametitlerulewidth@length=\skip84
+\mdf@frametitleleftmargin@length=\skip85
+\mdf@frametitlerightmargin@length=\skip86
+\mdf@shadowsize@length=\skip87
+\mdf@extratopheight@length=\skip88
+\mdf@subtitleabovelinewidth@length=\skip89
+\mdf@subtitlebelowlinewidth@length=\skip90
+\mdf@subtitleaboveskip@length=\skip91
+\mdf@subtitlebelowskip@length=\skip92
+\mdf@subtitleinneraboveskip@length=\skip93
+\mdf@subtitleinnerbelowskip@length=\skip94
+\mdf@subsubtitleabovelinewidth@length=\skip95
+\mdf@subsubtitlebelowlinewidth@length=\skip96
+\mdf@subsubtitleaboveskip@length=\skip97
+\mdf@subsubtitlebelowskip@length=\skip98
+\mdf@subsubtitleinneraboveskip@length=\skip99
+\mdf@subsubtitleinnerbelowskip@length=\skip100
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/utilities\pgfutil-commo
+n.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen169
+\pgfutil@tempdimb=\dimen170
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex
+.def
+\pgfutil@abb=\box102
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.t
+ex (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code
+.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.
+tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibrar
+yfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen171
+\pgf@y=\dimen172
+\pgf@xa=\dimen173
+\pgf@ya=\dimen174
+\pgf@xb=\dimen175
+\pgf@yb=\dimen176
+\pgf@xc=\dimen177
+\pgf@yc=\dimen178
+\pgf@xd=\dimen179
+\pgf@yd=\dimen180
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count299
+\c@pgf@countb=\count300
+\c@pgf@countc=\count301
+\c@pgf@countd=\count302
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count303
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdft
+ex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-comm
+on-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftp
+ath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count304
+\pgfsyssoftpath@bigbuffer@items=\count305
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/systemlayer\pgfsysproto
+col.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code
+.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.t
+ex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathparser.code
+.tex
+\pgfmath@dimen=\dimen181
+\pgfmath@count=\count306
+\pgfmath@box=\box103
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.c
+ode.tex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.b
+asic.code.tex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.t
+rigonometric.code.tex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.r
+andom.code.tex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.c
+omparison.code.tex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.b
+ase.code.tex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.r
+ound.code.tex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.m
+isc.code.tex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.i
+ntegerarithmetics.code.tex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.t
+ex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.
+tex
+\c@pgfmathroundto@lastzeros=\count307
+))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoint
+s.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen182
+\pgf@picmaxx=\dimen183
+\pgf@picminy=\dimen184
+\pgf@picmaxy=\dimen185
+\pgf@pathminx=\dimen186
+\pgf@pathmaxx=\dimen187
+\pgf@pathminy=\dimen188
+\pgf@pathmaxy=\dimen189
+\pgf@xx=\dimen190
+\pgf@xy=\dimen191
+\pgf@yx=\dimen192
+\pgf@yy=\dimen193
+\pgf@zx=\dimen194
+\pgf@zy=\dimen195
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathc
+onstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen196
+\pgf@path@lasty=\dimen197
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathu
+sage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen198
+\pgf@shorten@start@additional=\dimen199
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescope
+s.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box104
+\pgf@hbox=\box105
+\pgf@layerbox@main=\box106
+\pgf@picture@serial@count=\count308
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraph
+icstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen256
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretrans
+formations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen257
+\pgf@pt@y=\dimen258
+\pgf@pt@temp=\dimen259
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick
+.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjec
+ts.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathp
+rocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrow
+s.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen260
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade
+.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen261
+\pgf@sys@shading@range@num=\count309
+\pgf@shadingcount=\count310
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage
+.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexter
+nal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box107
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayer
+s.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretrans
+parency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatte
+rns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.c
+ode.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes
+.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box108
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.c
+ode.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-ver
+sion-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen262
+\pgf@nodesepend=\dimen263
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-ver
+sion-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.
+tex)) (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/utilities\pgffor.code.t
+ex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen264
+\pgffor@skip=\dimen265
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz
+.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/libraries\pgflibraryplo
+thandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count311
+\pgfplotmarksize=\dimen266
+)
+\tikz@lastx=\dimen267
+\tikz@lasty=\dimen268
+\tikz@lastxsaved=\dimen269
+\tikz@lastysaved=\dimen270
+\tikz@lastmovetox=\dimen271
+\tikz@lastmovetoy=\dimen272
+\tikzleveldistance=\dimen273
+\tikzsiblingdistance=\dimen274
+\tikz@figbox=\box109
+\tikz@figbox@bg=\box110
+\tikz@tempbox=\box111
+\tikz@tempbox@bg=\box112
+\tikztreelevel=\count312
+\tikznumberofchildren=\count313
+\tikznumberofcurrentchild=\count314
+\tikz@fig@count=\count315
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix
+.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count316
+\pgfmatrixcurrentcolumn=\count317
+\pgf@matrix@numberofcolumns=\count318
+)
+\tikz@expandcount=\count319
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libr
+aries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box113
+\mdf@footnotebox=\box114
+\mdf@splitbox@one=\box115
+\mdf@splitbox@two=\box116
+\mdf@splitbox@save=\box117
+\mdfsplitboxwidth=\skip101
+\mdfsplitboxtotalwidth=\skip102
+\mdfsplitboxheight=\skip103
+\mdfsplitboxdepth=\skip104
+\mdfsplitboxtotalheight=\skip105
+\mdfframetitleboxwidth=\skip106
+\mdfframetitleboxtotalwidth=\skip107
+\mdfframetitleboxheight=\skip108
+\mdfframetitleboxdepth=\skip109
+\mdfframetitleboxtotalheight=\skip110
+\mdffootnoteboxwidth=\skip111
+\mdffootnoteboxtotalwidth=\skip112
+\mdffootnoteboxheight=\skip113
+\mdffootnoteboxdepth=\skip114
+\mdffootnoteboxtotalheight=\skip115
+\mdftotallinewidth=\skip116
+\mdfboundingboxwidth=\skip117
+\mdfboundingboxtotalwidth=\skip118
+\mdfboundingboxheight=\skip119
+\mdfboundingboxdepth=\skip120
+\mdfboundingboxtotalheight=\skip121
+\mdf@freevspace@length=\skip122
+\mdf@horizontalwidthofbox@length=\skip123
+\mdf@verticalmarginwhole@length=\skip124
+\mdf@horizontalspaceofbox=\skip125
+\mdfsubtitleheight=\skip126
+\mdfsubsubtitleheight=\skip127
+\c@mdfcountframes=\count320
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count321
+\c@mdf@env@i=\count322
+\c@mdf@env@ii=\count323
+\c@mdf@zref@counter=\count324
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip128
+\bibsep=\skip129
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count325
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count326
+\Gm@cntv=\count327
+\c@Gm@tempcnt=\count328
+\Gm@bindingoffset=\dimen275
+\Gm@wd@mp=\dimen276
+\Gm@odd@mp=\dimen277
+\Gm@even@mp=\dimen278
+\Gm@layoutwidth=\dimen279
+\Gm@layoutheight=\dimen280
+\Gm@layouthoffset=\dimen281
+\Gm@layoutvoffset=\dimen282
+\Gm@dimlist=\toks37
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip130
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks38
+\ex@=\dimen283
+))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen284
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count329
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count330
+\leftroot@=\count331
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count332
+\DOTSCASE@=\count333
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box118
+\strutbox@=\box119
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen285
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count334
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count335
+\dotsspace@=\muskip17
+\c@parentequation=\count336
+\dspbrk@lvl=\count337
+\tag@help=\toks39
+\row@=\count338
+\column@=\count339
+\maxfields@=\count340
+\andhelp@=\toks40
+\eqnshift@=\dimen286
+\alignsep@=\dimen287
+\tagshift@=\dimen288
+\tagwidth@=\dimen289
+\totwidth@=\dimen290
+\lineht@=\dimen291
+\@envbody=\toks41
+\multlinegap=\skip131
+\multlinetaggap=\skip132
+\mathdisplay@stack=\toks42
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/eurosym\eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box120
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/todonotes\todonotes.sty
+Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
+Package: todonotes 2023/01/31
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libr
+aries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count341
+\calc@Bcount=\count342
+\calc@Adimen=\dimen292
+\calc@Bdimen=\dimen293
+\calc@Askip=\skip133
+\calc@Bskip=\skip134
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count343
+\calc@Cskip=\skip135
+)
+\c@@todonotes@numberoftodonotes=\count344
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
+\csq@reset=\count345
+\csq@gtype=\count346
+\csq@glevel=\count347
+\csq@qlevel=\count348
+\csq@maxlvl=\count349
+\csq@tshold=\count350
+\csq@ltx@everypar=\toks43
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count351
+\rotFPtop=\skip136
+\rotFPbot=\skip137
+\rot@float@box=\box121
+\rot@mess@toks=\toks44
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(base/style.tex)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
+5.
+ (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count352
+\scratchdimen=\dimen294
+\scratchbox=\box122
+\nofMPsegments=\count353
+\nofMParguments=\count354
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count355
+\MPscratchDim=\dimen295
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
+\everyMPtoPDFconversion=\toks46
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.st
+y
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+ (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 35.
+(report.out) (report.out)
+\@outlinefile=\write4
+\openout4 = `report.out'.
+
+\c@lstlisting=\count358
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(78.24507pt, 441.01773pt, 78.24507pt)
+* v-part:(T,H,B)=(78.24507pt, 688.5567pt, 78.24507pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=441.01773pt
+* \textheight=688.5567pt
+* \oddsidemargin=5.97508pt
+* \evensidemargin=5.97508pt
+* \topmargin=-31.02492pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=56.9055pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(sections/00_front_page.tex
+<images/logo.png, id=50, 1175.39125pt x 474.77374pt>
+File: images/logo.png Graphic file (type png)
+<use images/logo.png>
+Package pdftex.def Info: images/logo.png  used on input line 8.
+(pdftex.def)             Requested size: 284.52756pt x 114.92603pt.
+
+Overfull \hbox (56.90552pt too wide) in paragraph at lines 8--9
+[][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+.
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+9.
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+9.
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 9.
+
+Overfull \hbox (20.26501pt too wide) in paragraph at lines 31--51
+ [] 
+ []
+
+[1{C:/Users/Adeli/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Ad
+eli/Desktop/SOFTWARE/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}
+
+ <./images/logo.png>]) (sections/00_abstract.tex [1
+
+]) (report.toc)
+\tf@toc=\write5
+\openout5 = `report.toc'.
+
+ [2] (sections/01_introduction.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 \section{Approach}
+                        [1
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
+1.
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [2] [3{C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+) (report.aux)
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: B31371D166C7CF505D24740771FA9FBC;1313.
+ ) 
+Here is how much of TeX's memory you used:
+ 25439 strings out of 476411
+ 474802 string characters out of 5791949
+ 1861845 words of memory out of 5000000
+ 45297 multiletter control sequences out of 15000+600000
+ 547606 words of font info for 52 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 114i,8n,121p,1197b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/
+Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/A
+deli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
+Output written on report.pdf (6 pages, 132055 bytes).
+PDF statistics:
+ 115 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+
