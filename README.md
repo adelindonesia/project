@@ -18,3 +18,5 @@ This repository contains several sub-folders, including:
   - `data_model`: This folder contains the `data_model.ipynb` file, which is the code used to conduct the modeling part of the project.
 
 - `test`: This folder contains trial and error versions of the code that are not essential for understanding the project but have been included to provide a historical record of its development.
+
+In addition to these sub-folders, this repository also includes a PDF file containing the slides for the project presentation.
