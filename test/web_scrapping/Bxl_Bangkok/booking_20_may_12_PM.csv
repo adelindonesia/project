@@ -1,0 +1,85 @@
+out_airline_company,in_airline_company,dep_city,arr_city,out_dep_date,out_dep_time,out_duration,out_stop_num,out_arr_date,out_arr_time,in_dep_date,in_dep_time,in_duration,in_stop_num,in_arr_date,in_arr_time,price_ticket,hour_scrap,day_scrap
+Qatar Airways,Qatar Airways,BRU,BKK,Aug 1,9:05 AM,17h 35m,1 stop,Aug 2,7:40 AM,Aug 15,8:00 PM,23h 10m,1 stop,Aug 16,2:10 PM,"1 368,04 €",12,20
+Qatar Airways,Qatar Airways,BRU,BKK,Aug 1,9:05 AM,17h 00m,1 stop,Aug 2,7:05 AM,Aug 15,8:00 PM,23h 10m,1 stop,Aug 16,2:10 PM,"1 390,65 €",12,20
+Qatar Airways,Qatar Airways,BRU,BKK,Aug 1,9:05 AM,17h 35m,1 stop,Aug 2,7:40 AM,Aug 15,8:45 AM,34h 25m,1 stop,Aug 16,2:10 PM,"1 390,65 €",12,20
+Qatar Airways,Qatar Airways,BRU,BKK,Aug 1,9:05 AM,17h 00m,1 stop,Aug 2,7:05 AM,Aug 15,8:45 AM,34h 25m,1 stop,Aug 16,2:10 PM,"1 312,36 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 40m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"1 312,36 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 10m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 171,36 €",12,20
+Qatar Airways,Qatar Airways,BRU,BKK,Aug 1,9:05 AM,29h 00m,1 stop,Aug 2,7:05 PM,Aug 15,8:00 PM,23h 10m,1 stop,Aug 16,2:10 PM,"2 017,74 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 40m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 171,36 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 017,74 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 10m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 017,74 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,16h 40m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 017,74 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,6:05 PM,15h 05m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 171,36 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 017,74 €",12,20
+Qatar Airways,Qatar Airways,BRU,BKK,Aug 1,9:05 AM,29h 00m,1 stop,Aug 2,7:05 PM,Aug 15,8:45 AM,34h 25m,1 stop,Aug 16,2:10 PM,"1 315,67 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 40m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 017,74 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,16h 40m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 171,36 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 10m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 171,36 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,1:45 PM,19h 25m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 171,36 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 171,36 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,6:05 PM,15h 05m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 187,74 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 024,83 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 40m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 024,83 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 40m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 024,83 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 017,74 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 10m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,18h 30m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,18h 30m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,18h 30m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,16h 40m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 171,36 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,1:45 PM,19h 25m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 187,74 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 40m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 171,36 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 40m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 187,74 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 40m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 041,27 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 40m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 041,27 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,1:45 PM,19h 55m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 041,27 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 10m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 194,89 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 10m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 194,89 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,7:00 PM,14h 10m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,6:05 PM,15h 05m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,1:15 PM,19h 55m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,1:15 PM,19h 55m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,1:15 PM,19h 55m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,1:15 PM,19h 55m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,1:15 PM,19h 55m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,14h 10m,1 stop,Aug 16,8:10 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 024,83 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 024,83 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 024,83 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 041,27 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,18h 30m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,18h 30m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 041,27 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,16h 40m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,16h 40m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 194,89 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,1:45 PM,19h 25m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 171,36 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 041,27 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 041,27 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 041,27 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,17h 10m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 041,27 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,1:45 PM,19h 55m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 041,27 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,1:15 PM,19h 55m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 187,74 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,1:15 PM,19h 55m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 187,74 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,1:15 PM,19h 55m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,1:15 PM,19h 55m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,1:15 PM,19h 55m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,16h 20m,1 stop,Aug 16,10:20 AM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 048,36 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 048,36 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 048,36 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 048,36 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,19h 00m,2 stops,Aug 2,2:40 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 048,36 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,16h 40m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,16h 40m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 048,36 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,16h 40m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,4:30 PM,16h 40m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 55m,2 stops,Aug 16,1:55 PM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,18h 30m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,18h 30m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 194,89 €",12,20
+Lufthansa,Lufthansa,BRU,BKK,Aug 1,2:40 PM,18h 30m,2 stops,Aug 2,2:10 PM,Aug 15,11:00 PM,19h 00m,1 stop,Aug 16,1:00 PM,"2 194,89 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,1:45 PM,19h 25m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 194,89 €",12,20
+"Lufthansa, operated by Brussels Airlines",Lufthansa,BRU,BKK,Aug 1,1:45 PM,19h 25m,1 stop,Aug 2,2:10 PM,Aug 15,11:00 PM,18h 25m,2 stops,Aug 16,12:25 PM,"2 194,89 €",12,20
