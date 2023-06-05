@@ -1,21 +1,25 @@
 \section{Introduction}
 \label{chap:introduction}
 
-As students, we are constantly seeking opportunities to maximise our limited budgets. 
-One area where we identified potential for cost savings is air travel, particularly during peak travel times such as holidays. 
+As students, we are constantly seeking opportunities to maximize our limited budgets.
+One area where we identified potential for cost savings is air travel, particularly during peak travel times such as holidays.
 During these periods, ticket prices can increase significantly, making it challenging for us to afford travel for visiting family or taking vacations.
 
-With this in mind, we decided to undertake a project to develop a model capable of predicting the prices of round-trip tickets from Lufthansa and Swiss airlines to São Paulo and New York City.
-By analysing historical data on ticket prices and other relevant factors such as holidays, we aim to identify patterns and trends that can assist us in forecasting future ticket prices.
-Utilising this information, our goal is to determine the optimal time to purchase a ticket for each destination, allowing us to save money and make the most of our travel budget.
+With this in mind, we undertook a project to develop a model capable of predicting the prices of round-trip tickets from Lufthansa and Swiss airlines to São Paulo and New York City.
+By analyzing historical data on ticket prices and other relevant factors, we aimed to identify patterns and trends that could assist us in forecasting future ticket prices.
+Our analysis revealed several key variables that influenced ticket prices, including the time at which flight ticket data is collected and airline-specific factors.
 
-Through this project, we hope to gain valuable experience in working with time series data and developing predictive models while also discovering practical ways to save money on air travel during peak travel times.
-By focusing on two specific airlines and destinations, we aim to develop a model that is both accurate and applicable to our travel needs.
+Utilizing this information, our goal was to determine the optimal time to purchase a ticket for each destination, allowing us to save money and make the most of our travel budget.
+We created a predictive model using linear regression and trained it on historical data.
+Our model was found to have a reasonable level of predictive accuracy, as indicated by its R-squared value of 0.55.
+
+Through this project, we gained valuable experience in working with time series data and developing predictive models while also discovering practical ways to save money on air travel during peak travel times.
+By focusing on two specific airlines and destinations, we developed a model that was both accurate and applicable to our travel needs.
 
 \subsection{Research questions/hypotheses}
 \label{sec:quesstion}
 
-The objective of this study is to create a model that can predict the prices of round-trip tickets for Lufthansa and Swiss flights to Sao Paulo and NYC. 
+The objective of this study is to create a model that can predict the prices of round-trip tickets for Lufthansa and Swiss flights to São Paulo and NYC. 
 The first hypothesis posits that historical ticket prices for these flights exhibit identifiable patterns and trends. 
 By examining ticket price data over time, it is anticipated that these patterns can be discerned and used to forecast future prices. 
 To evaluate this hypothesis, historical ticket price data and other relevant factors will be analyzed to identify patterns and trends. 
@@ -28,14 +32,14 @@ The third hypothesis asserts that a model trained on historical data can accurat
 To test these hypotheses, a predictive model will be created using machine learning techniques to forecast future ticket prices based on historical data.
 This model will consider a variety of factors known to affect ticket prices, including the time at which flight ticket data is collected and airline-specific factors.
 
-The research questions are: What are the primary factors that influence ticket prices for Lufthansa and Swiss flights to Sao Paulo and NYC? How does the time at which flight ticket data is collected impact ticket prices? When is the optimal time to collect flight ticket data to minimize cost? And how accurately can future ticket prices be predicted using a model trained on historical data?
+The research questions are: What are the primary factors that influence ticket prices for Lufthansa and Swiss flights to São Paulo and NYC? How does the time at which flight ticket data is collected impact ticket prices? When is the optimal time to collect flight ticket data to minimize cost? And how accurately can future ticket prices be predicted using a model trained on historical data?
 In order to answer these questions, the study will involve collecting and analyzing large amounts of data on ticket prices and other relevant factors. This data will be used to train and evaluate the predictive model, allowing us to determine its accuracy and effectiveness in forecasting future ticket prices. By identifying the key factors that influence ticket prices and determining the optimal time to collect flight ticket data, we hope to provide valuable insights for travelers looking to save money on air travel.
 
 
 \section{Data}
 \label{chap:data}
 In this project, data was collected from the online travel booking platform booking.com.
-This platform was chosen due to its extensive coverage of flights from Lufthansa and Swiss airlines to Sao Paulo and NYC.
+This platform was chosen due to its extensive coverage of flights from Lufthansa and Swiss airlines to São Paulo and NYC.
 Data collection was conducted on a daily basis, with observations recorded every 2 hours between 8 am and 10 pm.
 This schedule was chosen to capture variations in ticket prices throughout the day.
 In total, 11619 data points were collected over the course of the project.
@@ -55,7 +59,7 @@ This model will be a valuable tool for travelers seeking to minimize costs and m
 
 \subsection{Data preparation}
 \label{sec:data}
-The initial phase of the methodology involves collecting data on ticket prices for Lufthansa and Swiss flights to Sao Paulo and New York City.
+The initial phase of the methodology involves collecting data on ticket prices for Lufthansa and Swiss flights to São Paulo and New York City.
 This objective is achieved by utilizing the Selenium web automation tool to extract ticket price data from the airlines’ websites.
 Selenium is a robust tool that facilitates the automation of web browser interactions, enabling the visiting of websites, inputting flight information, and retrieving ticket price data in an automated fashion.
 
@@ -63,7 +67,7 @@ Data collection occurs at regular intervals, with ticket price data being collec
 This frequent data collection captures changes in ticket prices over time, providing a rich dataset for analysis.
 
 Once the data has been collected, it is converted into a structured format using CSV (Comma-Separated Values) files.
-The data for each destination is stored in separate folders: one for flights from Brussels to Sao Paulo ($bxl\_to\_sao$) and one for flights from Brussels to New York City ($bxl\_to\_nyc$).
+The data for each destination is stored in separate folders: one for flights from Brussels to São Paulo ($bxl\_to\_sao$) and one for flights from Brussels to New York City ($bxl\_to\_nyc$).
 Each CSV file contains information on ticket prices, flight dates, and other relevant factors.
 
 Furthermore, the collected data is cleaned using the Pandas library in Python.
@@ -83,14 +87,14 @@ In our analysis of flight prices, we used the Seaborn, plotnine and Matplotlib l
 These powerful tools allowed us to create bar charts, scatter plots, line plots, boxplots and heatmaps to gain insights into trends and factors influencing ticket prices over time.
 Our goal was to identify potential features for use in a predictive model.
 
-One of the visualizations we created was a simple bar chart showing the number and frequency of flights to New York City and Sao Paulo operated by Lufthansa and Swiss Airline.
-As shown in Figure~\ref{fig:bar_pl}, we observed that Lufthansa operates more flights to Sao Paulo $(53.16\%)$, while Swiss Airline has a higher number of flights to New York City $(51.46\%)$.
+One of the visualizations we created was a simple bar chart showing the number and frequency of flights to New York City and São Paulo operated by Lufthansa and Swiss Airline.
+As shown in Figure~\ref{fig:bar_pl}, we observed that Lufthansa operates more flights to São Paulo $(53.16\%)$, while Swiss Airline has a higher number of flights to New York City $(51.46\%)$.
 However, the differences were not significant enough to suggest a higher popularity of one destination over another or a dominance of one airline company over another.
 This made the two destinations and airlines comparable in terms of price.
 \begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{images/1_dest_num_flights.png}
-    \caption{Bar chart showing the number and frequency of flights to New York City and Sao Paulo operated by Lufthansa and Swiss Airline.}
+    \caption{Bar chart showing the number and frequency of flights to New York City and São Paulo operated by Lufthansa and Swiss Airline.}
     \label{fig:bar_pl}
 \end{figure}
 
@@ -98,25 +102,25 @@ We also created additional stacked bar charts, shown in Figure~\ref{fig:stacked}
 These charts allowed for easy visual comparison between the two companies for each destination.
 We observed a clear variation in prices, mainly due to Swiss Airline, which tends to increase or decrease its prices more than Lufthansa.
 For flights to New York City, shown in Figure~\ref{fig:stack_left}, booking on Monday, Tuesday, Saturday or Sunday would be more beneficial.
-For flights to Sao Paulo, shown in Figure~\ref{fig:stack_right}, the price with Swiss Airline was significantly lower on Tuesday compared to other days of the week.
+For flights to São Paulo, shown in Figure~\ref{fig:stack_right}, the price with Swiss Airline was significantly lower on Tuesday compared to other days of the week.
 \begin{figure}
     \centering
     \subfigure[Stacked bar chart for flights to New York]{
       \includegraphics[width=0.45\textwidth]{images/2_1_day_ticket_price.png}
       \label{fig:stack_left}
     }
-    \subfigure[Stacked bar chart for flights to Sao Paulo]{
+    \subfigure[Stacked bar chart for flights to São Paulo]{
       \includegraphics[width=0.45\textwidth]{images/2_2_day_ticket_price.png}
       \label{fig:stack_right}
     }
-    \caption{Stacked bar charts showing the minimum ticket price for flights to New York City and Sao Paulo depending on the day of the week, operated by Lufthansa and Swiss Airline.}
+    \caption{Stacked bar charts showing the minimum ticket price for flights to New York City and São Paulo depending on the day of the week, operated by Lufthansa and Swiss Airline.}
     \label{fig:stacked}
 \end{figure}
 
 The second type of plot allows us to see the distribution of flight prices, shown by Figure~\ref{fig:box}.
 These boxplots especially draw attention to outliers, representing prices that deviated from the typical price range of an airline.
 The Figure~\ref{fig:box_left} reveals that, in the case of flights to New York City, there is a noticeable and higher variability in prices associated with Swiss Airline.
-The opposite can be observed in the case of Sao Paulo, shown by Figure~\ref{fig:box_right}. Overall, prices are around 1000 Euros for New York City, but prices can go until 2000 Euros for Sao Paulo.
+The opposite can be observed in the case of São Paulo, shown by Figure~\ref{fig:box_right}. Overall, prices are around 1000 Euros for New York City, but prices can go until 2000 Euros for São Paulo.
 The mean shows that Swiss Airline offers lower prices specifically for each destination, in average.
 
 \begin{figure}
@@ -125,18 +129,18 @@ The mean shows that Swiss Airline offers lower prices specifically for each dest
       \includegraphics[width=0.45\textwidth]{images/3_1_cities_prices.png}
       \label{fig:box_left}
     }
-    \subfigure[Boxplot for flights to Sao paulo]{
+    \subfigure[Boxplot for flights to São Paulo]{
       \includegraphics[width=0.45\textwidth]{images/3_2_cities_prices.png}
       \label{fig:box_right}
     }
-    \caption{Flight price distribution for different airlines to New York City and Sao Paulo.}
+    \caption{Flight price distribution for different airlines to New York City and São Paulo.}
     \label{fig:box}
 \end{figure}
 
 Line plots are essential for visualizing the fluctuations in prices over time, which allows for a better understanding of any patterns that may emerge.
 As the departure date was approaching, as shown by Figure~\ref{fig:line_pl}, the average price of tickets for both destinations did begin to increase and varied more.
 This highlights the importance of considering the timing of booking to secure more favorable prices.
-Swiss Airline exhibits a rather consistent increase in prices for both New York City and Sao Paulo as the departure date approaches.
+Swiss Airline exhibits a rather consistent increase in prices for both New York City and São Paulo as the departure date approaches.
 This suggests that booking earlier with Swiss Airline could result in more favorable prices.
 On the other hand, Lufthansa's price trend is less obvious and does not show a clear pattern of increasing prices as the departure date approaches.
 This could mean that booking timing may not be as crucial when flying with Lufthansa.
@@ -151,14 +155,14 @@ This could mean that booking timing may not be as crucial when flying with Lufth
       \includegraphics[width=0.45\textwidth]{images/4_2_hour_price_air.png}
       \label{fig:right}
     }
-    \caption{Line plots showing the fluctuations in flight prices over time for Lufthansa and Swiss Airline to New York City and Sao Paulo.}
+    \caption{Line plots showing the fluctuations in flight prices over time for Lufthansa and Swiss Airline to New York City and São Paulo.}
     \label{fig:line_pl}
 \end{figure}
 
 Scatter plots, Figure~\ref{fig:scatter}, are an effective way to visualize the relationship between flight cost and duration.
 By visually assessing the correlation between these two variables, we were able to gain insights into their relationship.
 For example, the Figure~\ref{fig:scat_left} for New York City revealed a clear negative correlation between flight price and duration, indicating that longer flights tend to be less expensive.
-This could be a useful feature for predicting flight prices. In contrast, the relationship between these variables was less clear for Sao Paulo, but still tended towards a negative correlation, as shown by Figure~\ref{fig:scat_right}.
+This could be a useful feature for predicting flight prices. In contrast, the relationship between these variables was less clear for São Paulo, but still tended towards a negative correlation, as shown by Figure~\ref{fig:scat_right}.
 Additionally, we observed that Lufthansa flights tended to have higher costs for the same flight duration.
 \begin{figure}
     \centering
@@ -166,18 +170,18 @@ Additionally, we observed that Lufthansa flights tended to have higher costs for
       \includegraphics[width=0.45\textwidth]{images/5_1_price_duration.png}
       \label{fig:scat_left}
     }
-    \subfigure[Scatter plot for flights Sao Paulo]{
+    \subfigure[Scatter plot for flights São Paulo]{
       \includegraphics[width=0.45\textwidth]{images/5_2_price_duration.png}
       \label{fig:scat_right}
     }
-    \caption{Scatter plots showing the relationship between flight cost and duration for New York City and Sao Paulo.}
+    \caption{Scatter plots showing the relationship between flight cost and duration for New York City and São Paulo.}
     \label{fig:scatter}
 \end{figure}
 
 The final step in our data visualization process was to create a heatmap of all numerical variables to better identify features for use in data modeling.
 Our analysis of the New York City destination revealed a strong negative correlation between ticket price and flight duration, as previously indicated by the scatter plot.
 Additionally, departure time also appeared to be negatively correlated with our prediction target.
-For Sao Paulo, prices showed a stronger correlation with flight duration and time-related variables.
+For São Paulo, prices showed a stronger correlation with flight duration and time-related variables.
 These observations and anlysis concerning the heatmaps is illustrated by Figure~\ref{fig:heat}.
 \begin{figure}
     \centering
@@ -185,11 +189,11 @@ These observations and anlysis concerning the heatmaps is illustrated by Figure~
       \includegraphics[width=1\textwidth]{images/6_1_heatmap.png}
       \label{fig:left_heat}
     }
-    \subfigure[Heatmap for flights for Sao paulo]{
+    \subfigure[Heatmap for flights for São Paulo]{
       \includegraphics[width=1\textwidth]{images/6_2_heatmap.png}
       \label{fig:right_heat}
     }
-    \caption{Heatmaps showing correlations between numerical variables for New York City and Sao Paulo.}
+    \caption{Heatmaps showing correlations between numerical variables for New York City and São Paulo.}
     \label{fig:heat}
 \end{figure}
 
@@ -212,9 +216,9 @@ These observations and anlysis concerning the heatmaps is illustrated by Figure~
 \subsection{Data modelling}
 \label{sec:data}
 The data visualization process has yielded several key insights that could inform data modeling efforts. 
-For instance, line plots have shown that ticket prices for both New York City and Sao Paulo tend to increase and exhibit greater variation as the departure date approaches.
+For instance, line plots have shown that ticket prices for both New York City and São Paulo tend to increase and exhibit greater variation as the departure date approaches.
 In particular, Swiss Airline has displayed a consistent increase in prices. Scatter plots have also revealed a distinct negative correlation between flight price and duration for New York City.
-While the relationship for Sao Paulo is less clear, it still tends towards a negative correlation. Heatmaps have further shown strong negative correlations between ticket price and flight duration for New York City, as well as stronger correlations between prices and flight duration/time-related variables for Sao Paulo. 
+While the relationship for São Paulo is less clear, it still tends towards a negative correlation. Heatmaps have further shown strong negative correlations between ticket price and flight duration for New York City, as well as stronger correlations between prices and flight duration/time-related variables for São Paulo. 
 These insights highlight the importance of considering factors such as booking timing, flight duration, and time-related variables when modeling data.
 
 In this project, several libraries and functions from the scikit-learn and statsmodels packages were utilized to perform data analysis and modeling. 
@@ -329,7 +333,7 @@ Overall, these factors suggest that this linear regression model is a suitable c
 By using this model, ticket prices were predicted for different combinations of day and hour when data was collected.
 The predicted ticket prices are summarized in the Table~\ref{tab:pred}.
 For example, for data collected on a Monday at 8:00 AM for a flight from New York to Lufthansa, the predicted ticket price is 1237.32.
-For data collected on a Sunday at 22:00 PM for a flight from Sao Paulo to Swiss, the predicted ticket price is 2136.93.
+For data collected on a Sunday at 22:00 PM for a flight from São Paulo to Swiss, the predicted ticket price is 2136.93.
 These predictions can provide useful information for individuals looking to book flights and can help them make informed decisions about when to book their tickets.
 
 \begin{table}[h!]
@@ -371,11 +375,12 @@ These predictions can provide useful information for individuals looking to book
   & & 22 & 2136.93 & 2169.16 & 2285.12 & 2127.50 & 2120.13 & 2108.09 & 2105.29\\
   \end{tabular}
   \caption{Lowest prices predicted for both destinations and airlines}
+  \label{tab:pred}
 \end{table}
 
 \section{Discussion}
 \label{chap:discussion}
-In this study, we aimed to create a model capable of predicting round-trip ticket prices for Lufthansa and Swiss flights to Sao Paulo and NYC.
+In this study, we aimed to create a model capable of predicting round-trip ticket prices for Lufthansa and Swiss flights to São Paulo and NYC.
 Our first hypothesis was that historical ticket prices would exhibit identifiable patterns and trends.
 Through our analysis of historical data and other relevant factors, we were able to confirm this hypothesis by identifying patterns and trends in ticket prices over time.
 
@@ -387,7 +392,7 @@ To test this hypothesis, we created and trained a predictive model using machine
 Our model considered various factors known to affect ticket prices, including the time at which flight ticket data is collected and airline-specific factors.
 We found that our model had a reasonable level of predictive accuracy, as indicated by its R-squared value.
 
-In response to our research questions, we discovered several primary factors influencing ticket prices for Lufthansa and Swiss flights to Sao Paulo and NYC.
+In response to our research questions, we discovered several primary factors influencing ticket prices for Lufthansa and Swiss flights to São Paulo and NYC.
 These included tot\_duration\_seconds, hour\_scrap, airline\_company\_dummy, destination\_dummy, out\_dep\_time\_dummy, and in\_arr\_time\_dummy.
 We also found that the time at which flight ticket data is collected had a significant impact on ticket prices, with certain times during the week resulting in lower prices.
 The optimal time to collect flight ticket data to minimize cost would depend on the specific combination of destination, airline company, and day of week.
@@ -404,7 +409,7 @@ Indeed, the collection of a substantial amount of data is crucial for training o
 For future research, it is recommended that the scope of data collection is extended in order to better capture variations as we approach to the departure date.
 
 Another key limitation is the reliance on only one specific data source for flight prices: booking.com.
-Although, the website includes a broad range of flights to New York City and Sao Paulo, specifically with Lufthansa and Swiss Airline, the prices provided by a single source may not represent the complete market dynamics or reflect true prices for all flights.
+Although, the website includes a broad range of flights to New York City and São Paulo, specifically with Lufthansa and Swiss Airline, the prices provided by a single source may not represent the complete market dynamics or reflect true prices for all flights.
 This limitation arises from the fact that the data is sourced from a comparable website.
 
 Furthermore, it is important to acknowledge certain limitations in our analysis and mention that extraneous variables may have influence prices significantly at a particular time.
@@ -417,18 +422,31 @@ Further research could explore alternative modeling techniques to determine if t
 
 \section{Conclusion}
 \label{chap:conclusion}
-Write the conclusion. What did you gain from the project assignment? Briefly explain your questions/hypotheses, findings, and meaningful discussion points in relation to the data collection, data management, data analysis, visualization and interaction concepts, and evaluation of your tool.
-What additional investigations need to be performed (or what is the limitation) in order to say that your solution is a good one for the problem? 
+In conclusion, this project aimed to develop a model capable of accurately predicting the prices of round-trip airline tickets from Lufthansa and Swiss airlines to Sao Paulo and New York City.
+Through an analysis of historical data on ticket prices and other relevant factors, patterns and trends were identified that could be used to forecast future ticket prices.
+The analysis revealed several key variables that influenced ticket prices, including the time at which flight ticket data is collected and airline-specific factors.
 
-\section{Reflections on own work}
-\label{chap:reflection}
-\begin{itemize}
-    \item Describe how you decided to scope (and/or re-scope) your problem formulation during the work, and given the data you had access to.
-    \item Describe how you searched for knowledge on how to scope the DS question you wanted to answer 
-    \item understand how to implement, test, and validate your results. 
-    \item Which sources helped you to get progress and how?
-    \item What would you have done differently if you were to start over again, for understanding the problem faster and for understanding what could be done with the data you had access to?
-    \item What else is there that you would have changed about this assignment?
-\end{itemize}
+A predictive model was created using linear regression and trained on historical data. 
+The model was found to have a reasonable level of predictive accuracy, as indicated by its R-squared value of 0.55.
+By utilizing this model, ticket prices were predicted for different combinations of day and hour when data was collected.
 
-\newpage
+Despite these successes, several limitations were encountered in the project.
+One limitation was the duration of data collection, which may have required a longer period of time to gather a substantial amount of data for effectively training the prediction model.
+Another limitation was the reliance on a single data source for flight prices: booking.com. Additionally, it is possible that linear regression may not have been the optimal choice for modeling ticket prices and that another model could have resulted in more accurate predictions.
+
+Overall, this project provided valuable experience in working with time series data and developing predictive models while also uncovering practical ways to save money on air travel.
+Further research could explore alternative modeling techniques and extend the scope of data collection to improve the accuracy of ticket price predictions.
+
+
+% \section{Reflections on own work}
+% \label{chap:reflection}
+% \begin{itemize}
+%     \item Describe how you decided to scope (and/or re-scope) your problem formulation during the work, and given the data you had access to.
+%     \item Describe how you searched for knowledge on how to scope the DS question you wanted to answer 
+%     \item understand how to implement, test, and validate your results. 
+%     \item Which sources helped you to get progress and how?
+%     \item What would you have done differently if you were to start over again, for understanding the problem faster and for understanding what could be done with the data you had access to?
+%     \item What else is there that you would have changed about this assignment?
+% \end{itemize}
+
+% \newpage
