@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  5 JUN 2023 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  5 JUN 2023 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,48 +994,6 @@ LaTeX Warning: Label `sec:data' multiply defined.
 
 LaTeX Warning: Label `sec:data' multiply defined.
 
-
-LaTeX Warning: Label `fig:left' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:left' multiply defined.
-
-
-LaTeX Warning: Label `fig:right' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:right' multiply defined.
-
-
-LaTeX Warning: Label `fig:left' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:left' multiply defined.
-
-
-LaTeX Warning: Label `fig:right' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:right' multiply defined.
-
-
-LaTeX Warning: Label `fig:combined' multiply defined.
-
-
-LaTeX Warning: Label `fig:left' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:left' multiply defined.
-
-
-LaTeX Warning: Label `fig:right' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:right' multiply defined.
-
-
-LaTeX Warning: Label `fig:combined' multiply defined.
-
 )
 \openout1 = `report.aux'.
 
@@ -1231,45 +1189,35 @@ File: images/4_2_hour_price_air.png Graphic file (type png)
 Package pdftex.def Info: images/4_2_hour_price_air.png  used on input line 153.
 
 (pdftex.def)             Requested size: 198.45662pt x 148.83817pt.
-<images/5_1_day_price_air.png, id=101, 1445.4pt x 1084.05pt>
-File: images/5_1_day_price_air.png Graphic file (type png)
-<use images/5_1_day_price_air.png>
-Package pdftex.def Info: images/5_1_day_price_air.png  used on input line 163.
-(pdftex.def)             Requested size: 198.45662pt x 148.83817pt.
-<images/5_2_day_price_air.png, id=102, 1445.4pt x 1084.05pt>
-File: images/5_2_day_price_air.png Graphic file (type png)
-<use images/5_2_day_price_air.png>
-Package pdftex.def Info: images/5_2_day_price_air.png  used on input line 167.
-(pdftex.def)             Requested size: 198.45662pt x 148.83817pt.
-<images/6_1_price_duration.png, id=103, 462.528pt x 346.896pt>
-File: images/6_1_price_duration.png Graphic file (type png)
-<use images/6_1_price_duration.png>
-Package pdftex.def Info: images/6_1_price_duration.png  used on input line 178.
+<images/5_1_price_duration.png, id=104, 462.528pt x 346.896pt>
+File: images/5_1_price_duration.png Graphic file (type png)
+<use images/5_1_price_duration.png>
+Package pdftex.def Info: images/5_1_price_duration.png  used on input line 168.
 
 (pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-<images/6_2_price_duration.png, id=104, 462.528pt x 346.896pt>
-File: images/6_2_price_duration.png Graphic file (type png)
-<use images/6_2_price_duration.png>
-Package pdftex.def Info: images/6_2_price_duration.png  used on input line 182.
+<images/5_2_price_duration.png, id=105, 462.528pt x 346.896pt>
+File: images/5_2_price_duration.png Graphic file (type png)
+<use images/5_2_price_duration.png>
+Package pdftex.def Info: images/5_2_price_duration.png  used on input line 172.
 
 (pdftex.def)             Requested size: 198.45662pt x 148.84477pt.
-<images/7_1_heatmap.png, id=105, 1156.32pt x 433.62pt>
-File: images/7_1_heatmap.png Graphic file (type png)
-<use images/7_1_heatmap.png>
-Package pdftex.def Info: images/7_1_heatmap.png  used on input line 193.
+<images/6_1_heatmap.png, id=107, 1156.32pt x 433.62pt>
+File: images/6_1_heatmap.png Graphic file (type png)
+<use images/6_1_heatmap.png>
+Package pdftex.def Info: images/6_1_heatmap.png  used on input line 187.
 (pdftex.def)             Requested size: 441.01773pt x 165.37941pt.
-<images/7_2_heatmap.png, id=106, 1156.32pt x 433.62pt>
-File: images/7_2_heatmap.png Graphic file (type png)
-<use images/7_2_heatmap.png>
-Package pdftex.def Info: images/7_2_heatmap.png  used on input line 197.
+<images/6_2_heatmap.png, id=108, 1156.32pt x 433.62pt>
+File: images/6_2_heatmap.png Graphic file (type png)
+<use images/6_2_heatmap.png>
+Package pdftex.def Info: images/6_2_heatmap.png  used on input line 191.
 (pdftex.def)             Requested size: 441.01773pt x 165.37941pt.
 
-Overfull \hbox (7.83322pt too wide) in paragraph at lines 193--198
+Overfull \hbox (7.83322pt too wide) in paragraph at lines 187--192
  [][] 
  []
 
 
-Overfull \hbox (7.83322pt too wide) in paragraph at lines 193--198
+Overfull \hbox (7.83322pt too wide) in paragraph at lines 187--192
  [][] 
  []
 
@@ -1278,40 +1226,33 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.232 \section{Conclusion}
-                           <./images/3_1_cities_prices.png> <./images/3_2_citie
-s_prices.png>] [6
+l.195 
+       <./images/3_1_cities_prices.png> <./images/3_2_cities_prices.png>]
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.232 \section{Conclusion}
-                          
+l.195 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.232 \section{Conclusion}
-                          
+l.195 
+       <./images/4_1_hour_price_air.png> <./images/4_2_hour_price_air.png> <./i
+mages/5_1_price_duration.png> <./images/5_2_price_duration.png>] [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.232 \section{Conclusion}
-                           <./images/4_1_hour_price_air.png> <./images/4_2_hour
-_price_air.png> <./images/5_1_day_price_air.png> <./images/5_2_day_price_air.pn
-g> <./images/6_1_price_duration.png> <./images/6_2_price_duration.png>]
-[7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.232 \section{Conclusion}
-                           <./images/7_1_heatmap.png> <./images/7_2_heatmap.png
->]
+l.222 \subsection{Limitations and Challenges}
+                                              <./images/6_1_heatmap.png> <./ima
+ges/6_2_heatmap.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-40.
- (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\ts1lmr.fd
+34.
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [8{C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) (r
 eport.aux)
@@ -1322,21 +1263,21 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 6730C8442CC4761271561DF214416892;1343.
  ) 
 Here is how much of TeX's memory you used:
- 25578 strings out of 476411
- 478581 string characters out of 5791949
+ 25568 strings out of 476411
+ 478174 string characters out of 5791949
  1863845 words of memory out of 5000000
- 45402 multiletter control sequences out of 15000+600000
+ 45397 multiletter control sequences out of 15000+600000
  550549 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,8n,121p,1197b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,8n,121p,1197b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/
 Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/
 Adeli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Adeli/D
 esktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Adeli/Desktop/
 SOFTWARE/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on report.pdf (10 pages, 2276484 bytes).
+Output written on report.pdf (10 pages, 1302916 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

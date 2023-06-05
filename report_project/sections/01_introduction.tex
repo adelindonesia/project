@@ -155,48 +155,42 @@ This could mean that booking timing may not be as crucial when flying with Lufth
     \label{fig:line_pl}
 \end{figure}
 
+Scatter plots, Figure~\ref{fig:scatter}, are an effective way to visualize the relationship between flight cost and duration.
+By visually assessing the correlation between these two variables, we were able to gain insights into their relationship.
+For example, the Figure~\ref{fig:scat_left} for New York City revealed a clear negative correlation between flight price and duration, indicating that longer flights tend to be less expensive.
+This could be a useful feature for predicting flight prices. In contrast, the relationship between these variables was less clear for Sao Paulo, but still tended towards a negative correlation, as shown by Figure~\ref{fig:scat_right}.
+Additionally, we observed that Lufthansa flights tended to have higher costs for the same flight duration.
 \begin{figure}
     \centering
-    \subfigure[Left figure]{
-      \includegraphics[width=0.45\textwidth]{images/5_1_day_price_air.png}
-      \label{fig:left}
+    \subfigure[Scatter plot for flights New York]{
+      \includegraphics[width=0.45\textwidth]{images/5_1_price_duration.png}
+      \label{fig:scat_left}
     }
-    \subfigure[Right figure]{
-      \includegraphics[width=0.45\textwidth]{images/5_2_day_price_air.png}
-      \label{fig:right}
+    \subfigure[Scatter plot for flights Sao Paulo]{
+      \includegraphics[width=0.45\textwidth]{images/5_2_price_duration.png}
+      \label{fig:scat_right}
     }
-    \caption{Combined figure}
-    \label{fig:combined}
+    \caption{Scatter plots showing the relationship between flight cost and duration for New York City and Sao Paulo.}
+    \label{fig:scatter}
 \end{figure}
 
-
+The final step in our data visualization process was to create a heatmap of all numerical variables to better identify features for use in data modeling.
+Our analysis of the New York City destination revealed a strong negative correlation between ticket price and flight duration, as previously indicated by the scatter plot.
+Additionally, departure time also appeared to be negatively correlated with our prediction target.
+For Sao Paulo, prices showed a stronger correlation with flight duration and time-related variables.
+These observations and anlysis concerning the heatmaps is illustrated by Figure~\ref{fig:heat}.
 \begin{figure}
     \centering
-    \subfigure[Left figure]{
-      \includegraphics[width=0.45\textwidth]{images/6_1_price_duration.png}
-      \label{fig:left}
+    \subfigure[Heatmap for flights to New York]{
+      \includegraphics[width=1\textwidth]{images/6_1_heatmap.png}
+      \label{fig:left_heat}
     }
-    \subfigure[Right figure]{
-      \includegraphics[width=0.45\textwidth]{images/6_2_price_duration.png}
-      \label{fig:right}
+    \subfigure[Heatmap for flights for Sao paulo]{
+      \includegraphics[width=1\textwidth]{images/6_2_heatmap.png}
+      \label{fig:right_heat}
     }
-    \caption{Combined figure}
-    \label{fig:combined}
-\end{figure}
-
-
-\begin{figure}
-    \centering
-    \subfigure[Left figure]{
-      \includegraphics[width=1\textwidth]{images/7_1_heatmap.png}
-      \label{fig:left}
-    }
-    \subfigure[Right figure]{
-      \includegraphics[width=1\textwidth]{images/7_2_heatmap.png}
-      \label{fig:right}
-    }
-    \caption{Combined figure}
-    \label{fig:combined}
+    \caption{Heatmaps showing correlations between numerical variables for New York City and Sao Paulo.}
+    \label{fig:heat}
 \end{figure}
 
 % \begin{figure}
@@ -212,6 +206,7 @@ This could mean that booking timing may not be as crucial when flying with Lufth
 %     \caption{Combined figure}
 %     \label{fig:combined}
 % \end{figure}
+
 
 
 \subsection{Data modelling}
