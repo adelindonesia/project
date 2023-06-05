@@ -79,8 +79,8 @@ By using tools such as Pandas and Python, large amounts of data can be efficient
 \subsection{Data visualizations}
 \label{sec:data}
 
-In our analysis of flight prices, we used the Seaborn and Matplotlib libraries in Python to create visualizations of our data.
-These powerful tools allowed us to gain insights into trends and factors influencing ticket prices over time.
+In our analysis of flight prices, we used the Seaborn, plotnine and Matplotlib libraries in Python to create visualizations of our data.
+These powerful tools allowed us to create bar charts, scatter plots, line plots, boxplots and heatmaps to gain insights into trends and factors influencing ticket prices over time.
 Our goal was to identify potential features for use in a predictive model.
 
 One of the visualizations we created was a simple bar chart showing the number and frequency of flights to New York City and Sao Paulo operated by Lufthansa and Swiss Airline.
@@ -118,6 +118,7 @@ These boxplots especially draw attention to outliers, representing prices that d
 The Figure~\ref{fig:box_left} reveals that, in the case of flights to New York City, there is a noticeable and higher variability in prices associated with Swiss Airline.
 The opposite can be observed in the case of Sao Paulo, shown by Figure~\ref{fig:box_right}. Overall, prices are around 1000 Euros for New York City, but prices can go until 2000 Euros for Sao Paulo.
 The mean shows that Swiss Airline offers lower prices specifically for each destination, in average.
+
 \begin{figure}
     \centering
     \subfigure[Boxplot for flights to New York]{
@@ -132,19 +133,26 @@ The mean shows that Swiss Airline offers lower prices specifically for each dest
     \label{fig:box}
 \end{figure}
 
+Line plots are essential for visualizing the fluctuations in prices over time, which allows for a better understanding of any patterns that may emerge.
+As the departure date was approaching, as shown by Figure~\ref{fig:line_pl}, the average price of tickets for both destinations did begin to increase and varied more.
+This highlights the importance of considering the timing of booking to secure more favorable prices.
+Swiss Airline exhibits a rather consistent increase in prices for both New York City and Sao Paulo as the departure date approaches.
+This suggests that booking earlier with Swiss Airline could result in more favorable prices.
+On the other hand, Lufthansa's price trend is less obvious and does not show a clear pattern of increasing prices as the departure date approaches.
+This could mean that booking timing may not be as crucial when flying with Lufthansa.
 
 \begin{figure}
     \centering
-    \subfigure[Left figure]{
+    \subfigure[Flight price trend to NYC]{
       \includegraphics[width=0.45\textwidth]{images/4_1_hour_price_air.png}
       \label{fig:left}
     }
-    \subfigure[Right figure]{
+    \subfigure[Flight price trend to NYC]{
       \includegraphics[width=0.45\textwidth]{images/4_2_hour_price_air.png}
       \label{fig:right}
     }
-    \caption{Combined figure}
-    \label{fig:combined}
+    \caption{Line plots showing the fluctuations in flight prices over time for Lufthansa and Swiss Airline to New York City and Sao Paulo.}
+    \label{fig:line_pl}
 \end{figure}
 
 \begin{figure}
@@ -161,6 +169,7 @@ The mean shows that Swiss Airline offers lower prices specifically for each dest
     \label{fig:combined}
 \end{figure}
 
+
 \begin{figure}
     \centering
     \subfigure[Left figure]{
@@ -174,6 +183,7 @@ The mean shows that Swiss Airline offers lower prices specifically for each dest
     \caption{Combined figure}
     \label{fig:combined}
 \end{figure}
+
 
 \begin{figure}
     \centering
