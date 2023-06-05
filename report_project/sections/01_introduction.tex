@@ -211,8 +211,89 @@ These observations and anlysis concerning the heatmaps is illustrated by Figure~
 
 \subsection{Data modelling}
 \label{sec:data}
-Describe your final data analysis results and everything that you discovered on the way the put you forward and you think is worth describing here.
-Elaborate on the significance of your findings/results and convey your thoughts. 
+The data visualization process has yielded several key insights that could inform data modeling efforts. 
+For instance, line plots have shown that ticket prices for both New York City and Sao Paulo tend to increase and exhibit greater variation as the departure date approaches.
+In particular, Swiss Airline has displayed a consistent increase in prices. Scatter plots have also revealed a distinct negative correlation between flight price and duration for New York City.
+While the relationship for Sao Paulo is less clear, it still tends towards a negative correlation. Heatmaps have further shown strong negative correlations between ticket price and flight duration for New York City, as well as stronger correlations between prices and flight duration/time-related variables for Sao Paulo. 
+These insights highlight the importance of considering factors such as booking timing, flight duration, and time-related variables when modeling data.
+
+In this project, several libraries and functions from the scikit-learn and statsmodels packages were utilized to perform data analysis and modeling. 
+The data was split into training and testing sets using the train\_test\_split function, while cross-validation was performed using the cross\_val\_score function.
+The performance of the models was evaluated using various metrics, including accuracy\_score, mean\_absolute\_error, mean\_squared\_error, and r2\_score.
+Although several regression models were employed to fit the data and make predictions, including LinearRegression, LogisticRegression and LogisticRegressionCV,
+only the results from the LinearRegression model will be taken into account.
+Additionally, statistical analysis was performed and multicollinearity was assessed using the statsmodels library and its api module as well as the variance\_inflation\_factor function.
+
+Several models were tested on different dataframes. Ultimately, a linear regression model was selected with the following function: 
+\\
+$Ticket\_price = \beta_0 + \beta_1 \times tot\_duration\_seconds + \beta_2 \times hour\_scrap + \beta_3 \times airline\_company\_dummy + \beta_4 \times destination\_dummy + \beta_5 \times out\_dep\_time\_dummy + \beta_6 \times in\_arr\_time\_dummy + \beta_7 \times day\_of\_week\_\*$.
+
+The linear regression model incorporates several independent variables and a dependent variable.
+The dependent variable is ticket\_price, which represents the ticket price for a flight and can take any non-negative numerical value.
+The first independent variable is tot\_duration\_seconds, which denotes the total duration of the flight in seconds.
+The second variable is hour\_scrap, which specifies the hour at which the data was collected.
+The third and fourth variables, airline\_company\_dummy and destination\_dummy, are dummy variables that represent the airline company and destination, respectively.
+The fifth and sixth variables, out\_dep\_time\_dummy and in\_arr\_time\_dummy, are dummy variables that indicate the departure time from the origin and arrival time at the destination, respectively.
+Lastly, day\_of\_week\_* represents dummy variables that indicate the day of the week on which the data was collected.
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{l c}
+  \hline
+   & \textbf{Values} \\
+  \hline
+  \textbf{Intercept} & 2097.4909712064773 \\
+  \textbf{Training RMSE} & 522.364425 \\
+  \textbf{Test RMSE} & 524.069444 \\
+  \textbf{Cross-validation RMSE} & 516.31323 \\
+  \textbf{Mean Absolute Error} & 171.879278 \\
+  \textbf{Mean Squared Error} & 274648.782087 \\
+  \textbf{Root Mean Squared Error} & 524.069444 \\
+  \textbf{R-squared} & 0.552468 \\
+  \hline
+  \end{tabular}
+  \caption{Different metrics to assess the model and their results}
+  \label{tab:my_tab}
+\end{table}
+
+The linear regression model was assessed and several values were obtained, as shown by Table~\ref{tab:my_tab}. 
+The intercept value of 2097.49 represents the expected value of the dependent variable \(ticket\_price\) when all independent variables are equal to zero.
+The training and test RMSE values of 522.36 and 524.07, respectively, represent the root mean squared error of the model on the training and test data.
+The cross-validation RMSE value of 516.31 represents the root mean squared error of the model when evaluated using cross-validation.
+The mean absolute error value of 171.88 represents the average absolute difference between the predicted and actual values of the dependent variable.
+The mean squared error value of 274648.78 represents the average squared difference between the predicted and actual values of the dependent variable.
+The root mean squared error value of 524.07 represents the square root of the mean squared error. 
+The R-squared value of 0.55 represents the proportion of variance in the dependent variable that is explained by the independent variables in the model.
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{l c c}
+  \hline
+   & \textbf{coef} & \textbf{p-values} \\
+  \hline
+  \textbf{const} & 2103.6217 & 1.613956e-219 \\
+  \textbf{tot\_duration\_seconds} & -0.0011 & 5.714598e-08 \\
+  \textbf{hour\_scrap} & -2.8844 & 5.003298e-02 \\
+  \textbf{day\_scrap} & 16.5914 & 2e-24\\
+  \textbf{airline\_company\_dummy}&-291&2e-128\\
+  \textbf{destination\_dummy}&-1207&0\\
+  \textbf{out\_dep\_time\_dummy}&-159&1e-33\\
+  \textbf{in\_arr\_time\_dummy}&89&2e-09\\
+  \hline
+  \end{tabular}
+  \caption{Coefficients of the model and their p-values}
+  \label{tab:my_tab1}
+\end{table}
+
+The coefficients and p-values for each independent variable represent the estimated effect of that variable on the dependent variable and the statistical significance of that effect, respectively.
+For example, the coefficient for tot\_duration\_seconds is -0.0012, indicating that for every one-unit increase in tot\_duration\_seconds, ticket\_price is expected to decrease by 0.0012 units on average, holding all other variables constant.
+The p-value for tot\_duration\_seconds is 5.71e-08, indicating that this effect is statistically significant at a conventional level \(e.g., p < 0.05\). 
+Similarly, the coefficient for hour\_scrap is -2.31, indicating that for every one-unit increase in hour\_scrap,
+ticket\_price is expected to decrease by 2.31 units on average, holding all other variables constant. 
+The p-value for hour\_scrap is 0.050, indicating that this effect is marginally statistically significant at a conventional level.
+They are summarize by the Table~\ref{tab:my_tab1}.
+
+
 
 
 \section{Discussion}

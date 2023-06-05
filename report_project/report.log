@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  5 JUN 2023 11:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  5 JUN 2023 14:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,10 +976,74 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-))
+)
 (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen294
+\ar@mcellbox=\box122
+\extrarowheight=\dimen295
+\NC@list=\toks45
+\extratabsurround=\skip138
+\backup@length=\skip139
+\ar@cellbox=\box123
+)
+\TX@col@width=\dimen296
+\TX@old@table=\dimen297
+\TX@old@col=\dimen298
+\TX@target=\dimen299
+\TX@delta=\dimen300
+\TX@cols=\count352
+\TX@ftn=\toks46
+))
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box124
+)
+\tc@llx=\dimen301
+\tc@lly=\dimen302
+\tc@urx=\dimen303
+\tc@ury=\dimen304
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen305
+\adjbox@Height=\dimen306
+\adjbox@Depth=\dimen307
+\adjbox@Totalheight=\dimen308
+\adjbox@pwidth=\dimen309
+\adjbox@pheight=\dimen310
+\adjbox@pdepth=\dimen311
+\adjbox@ptotalheight=\dimen312
+
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count353
+)
+(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box125
+\sift@deathcycles=\count354
+\@vwid@loff=\dimen313
+\@vwid@roff=\dimen314
+))
 (base/style.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -1017,17 +1081,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
  (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count352
-\scratchdimen=\dimen294
-\scratchbox=\box122
-\nofMPsegments=\count353
-\nofMParguments=\count354
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count355
-\MPscratchDim=\dimen295
-\MPnumerator=\count356
-\makeMPintoPDFobject=\count357
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count355
+\scratchdimen=\dimen315
+\scratchbox=\box126
+\nofMPsegments=\count356
+\nofMParguments=\count357
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen316
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
+\everyMPtoPDFconversion=\toks48
 )
 (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.st
 y
@@ -1042,7 +1106,7 @@ Package hyperref Info: Link coloring ON on input line 35.
 \@outlinefile=\write4
 \openout4 = `report.out'.
 
-\c@lstlisting=\count358
+\c@lstlisting=\count361
 
 (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
@@ -1246,16 +1310,37 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.222 \subsection{Limitations and Challenges}
-                                              <./images/6_1_heatmap.png> <./ima
-ges/6_2_heatmap.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-34.
+l.220 I
+       n this project, several libraries and functions from the scikit-learn...
+ <./images/6_1_heatmap.png> <./images/6_2_heatmap.png>]
+Overfull \hbox (44.80223pt too wide) in paragraph at lines 227--230
+\OML/lmm/m/it/12 Ticket[]price \OT1/lmr/m/n/12 = \OML/lmm/m/it/12 ^^L[] \OT1/lm
+r/m/n/12 + \OML/lmm/m/it/12 ^^L[] \OMS/lmsy/m/n/12 ^^B \OML/lmm/m/it/12 tot[]du
+ration[]seconds \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 ^^L[] \OMS/lmsy/m/n/12 ^^B \
+OML/lmm/m/it/12 hour[]scrap \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 ^^L[] \OMS/lmsy/
+m/n/12 ^^B \OML/lmm/m/it/12 airline[]company[]dummy \OT1/lmr/m/n/12 +
+ []
 
-(C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\ts1lmr.fd
+[8{C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.267 
+      ] [9
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.312 
+      ]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+16.
+ (C:\Users\Adeli\Desktop\SOFTWARE\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [8{C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) (r
-eport.aux)
+)
+[10{C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}])
+(report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1263,21 +1348,23 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 6730C8442CC4761271561DF214416892;1343.
  ) 
 Here is how much of TeX's memory you used:
- 25568 strings out of 476411
- 478174 string characters out of 5791949
- 1863845 words of memory out of 5000000
- 45397 multiletter control sequences out of 15000+600000
+ 26615 strings out of 476411
+ 497920 string characters out of 5791949
+ 1865845 words of memory out of 5000000
+ 46410 multiletter control sequences out of 15000+600000
  550549 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,8n,121p,1197b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,9n,121p,1197b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/
 Users/Adeli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/
 Adeli/Desktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Adeli/D
 esktop/SOFTWARE/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Adeli/Desktop/
-SOFTWARE/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
-Output written on report.pdf (10 pages, 1302916 bytes).
+SOFTWARE/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Adeli/Desktop/SOFTWAR
+E/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Adeli/Desktop/SOFTWARE/MiKTeX
+/fonts/type1/public/lm/lmsy10.pfb>
+Output written on report.pdf (12 pages, 1344962 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
