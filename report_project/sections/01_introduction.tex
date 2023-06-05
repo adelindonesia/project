@@ -293,13 +293,105 @@ ticket\_price is expected to decrease by 2.31 units on average, holding all othe
 The p-value for hour\_scrap is 0.050, indicating that this effect is marginally statistically significant at a conventional level.
 They are summarize by the Table~\ref{tab:my_tab1}.
 
+Furthermore, the variance inflation factor (VIF) was calculated for each independent variable in the linear regression model.
+The VIF is a measure of the degree to which the variance of the estimated regression coefficients is inflated due to multicollinearity among the independent variables.
+A VIF value greater than 5 or 10 is often considered to indicate high multicollinearity. In this case, the VIF values for all independent variables were below 5, indicating that multicollinearity is not a major concern in this model. 
+The VIF values can be found in the Table~\ref{tab:vif}.
+\begin{table}[H]
+  \centering
+  \begin{tabular}{l c}
+  \hline
+  \textbf{feature} & \textbf{VIF} \\
+  \hline
+  const & 142.799773 \\
+  tot\_duration\_seconds & 2.393894 \\
+  hour\_scrap & 1.008921 \\
+  day\_scrap & 1.054136 \\
+  airline\_company\_dummy & 1.175422 \\
+  destination\_dummy & 2.411166 \\
+  out\_dep\_time\_dummy & 1.460508 \\
+  in\_arr\_time\_dummy & 1.249996 \\
+  \hline
+  \end{tabular}
+  \caption{VIF values for each feature}
+  \label{tab:vif}
+\end{table}
 
+In conclusion, the linear regression model was chosen for several reasons.
+First, the model incorporates several relevant independent variables, including tot\_duration
+\_seconds, hour\_scrap, airline\_company\_dummy, destination\_dummy, out\_dep\_time\_dummy, and in\_arr\_time\_dummy.
+These variables were found to have statistically significant effects on the dependent variable (ticket\_price) based on their p-values.
+Second, the model was assessed using various metrics and was found to have a reasonable level of predictive accuracy. 
+For instance, the R-squared value of 0.55 indicates that the model explains a moderate proportion of variance in the dependent variable.
+Third, the variance inflation factor (VIF) values for all independent variables were below 5, indicating that multicollinearity is not a major concern in this model.
+Overall, these factors suggest that this linear regression model is a suitable choice for modeling the relationship between the independent variables and ticket\_price.
 
+By using this model, ticket prices were predicted for different combinations of day and hour when data was collected.
+The predicted ticket prices are summarized in the Table~\ref{tab:pred}.
+For example, for data collected on a Monday at 8:00 AM for a flight from New York to Lufthansa, the predicted ticket price is 1237.32.
+For data collected on a Sunday at 22:00 PM for a flight from Sao Paulo to Swiss, the predicted ticket price is 2136.93.
+These predictions can provide useful information for individuals looking to book flights and can help them make informed decisions about when to book their tickets.
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{l l l l l l l l l l l}
+  & & Day & Monday & Tuesday & Wednesday & Thursday & Friday & Saturday & Sunday \\
+  Destination & Airline & Hour & & & & & & & \\
+  New York & Lufthansa & 8 & 1237.32 & 1269.55 & 1385.51 & 1227.89 & 1220.52 & 1208.47 & 1205.67 \\
+  & & 10 & 1231.43 & 1263.65 & 1379.61 & 1221.99 & 1214.62 & 1202.58 & 1199.78\\
+  & & 12 & 1225.53 & 1257.75 & 1373.71 & 1216.10 & 1208.73 &  1196.68 & 1193.88\\
+  & & 14 & 1219.63 & 1251.86 & 1367.81 & 1210.20 & 1202.83 & 1193.88 & 1187.98\\
+  & & 16 & 1213.73 & 1245.96 & 1361.92 & 1204.30 & 1196.93 & 1184.88 & 1182.09 \\
+  & & 18 & 1207.84 & 1240.06 & 1356.02 & 1198.41 & 1191.03 & 1178.99 & 1176.19 \\
+  & & 20 & 1201.94 & 1234.16 & 1350.12 & 1192.51 & 1185.14 & 1173.09 & 1170.29 \\
+  & & 22 & 1196.04 & 1228.27 & 1344.22 & 1186.61 & 1179.24 & 1167.19 & 1164.4 \\
+  & Swiss & 8 & 950.78 & 983.00 & 1098.96 & 941.35 & 933.98 & 921.93 & 919.13\\
+  & & 10 & 944.88 & 977.11 & 1093.06 & 935.45 & 928.08 & 916.03 & 913.24\\
+  & & 12 & 938.98 & 971.21 & 1087.17 & 929.55 & 922.18 & 910.14 & 907.34\\
+  & & 14 & 933.09 & 965.31 & 1081.27 & 923.66 & 916.28 & 904.24 & 901.44\\
+  & & 16 & 927.19 & 959.41 & 1075.37 & 917.76 & 910.39 & 898.34 & 895.54\\
+  & & 18 & 921.29 & 953.52 & 1069.47 & 911.86 & 904.49 & 892.44 & 889.65\\
+  & & 20 & 915.39 & 947.62  & 1063.58 & 905.96& 898.59 & 886.55&883.75\\
+  & & 22 & 909.50 & 941.72 & 1057.68 & 900.07 & 892.69 &880.65 & 877.85\\
+  Sao Paolo & Lufthansa & 8 & 2464.76 & 2496.99 & 2612.94 & 2455.33 & 2447.96 & 2435.92 & 2433.12\\
+  & & 10 & 2458.86 & 2491.09 & 2607.05 & 2449.43 & 2442.06 & 2430.02 & 2427.22\\
+  & & 12 & 2452.97 & 2485.19 & 2601.15 & 2443.54 & 2436.16 & 2424.12 & 2421.32\\
+  & & 14 & 2447.07 & 2479.29 & 2595.25 & 2437.64 & 2430.27 & 2418.22 & 2415.42\\
+  & & 16 & 2441.17 & 2473.40 & 2589.35 & 2431.74 & 2424.37 & 2412.33 & 2409.53\\
+  & & 18 & 2435.27 & 2467.50 & 2583.46 & 2425.84 & 2418.47 & 2406.43 & 2403.63\\
+  & & 20 & 2429.38 & 2461.60 & 2577.56 & 2419.95 & 2412.57 & 2400.53 & 2397.73\\
+  & & 22 & 2423.48 & 2455.70 & 2571.66 & 2414.05 & 2406.68 & 2394.63 & 2391.83\\
+  & Swiss& 8 & 2178.21 & 2210.44 & 2326.40 & 2168.79 & 2161.41 & 2149.37 & 2146.57\\
+  & & 10 & 2172.32 & 2204.54 & 2320.50 & 2162.89 & 2155.51 & 2143.47 & 2140.67\\
+  & & 16 & 2154.62 & 2186.85 & 2302.81 & 2145.20 & 2137.82 & 2125.78 & 2122.98\\
+  & & 18 & 2148.73 & 2180.95 & 2296.91 & 2139.30 & 2131.92 & 2119.88 & 2117.08\\
+  & & 12 & 2166.42 & 2198.65 & 2314.60 & 2156.99 & 2149.62 & 2137.57 & 2134.78\\
+  & & 14 & 2160.52 & 2192.75 & 2308.71 & 2151.09 & 2143.72 & 2131.68 & 2128.88\\
+  & & 20 & 2142.83 & 2175.06 & 2291.01 & 2133.40 & 2126.03 & 2113.98 & 2111.19\\
+  & & 22 & 2136.93 & 2169.16 & 2285.12 & 2127.50 & 2120.13 & 2108.09 & 2105.29\\
+  \end{tabular}
+  \caption{Lowest prices predicted for both destinations and airlines}
+\end{table}
 
 \section{Discussion}
 \label{chap:discussion}
-What do the results mean (their significance and to whom) and how do they answer your research questions/hypotheses? 
-From the evaluation and validation of the tool, what can you conclude? 
+In this study, we aimed to create a model capable of predicting round-trip ticket prices for Lufthansa and Swiss flights to Sao Paulo and NYC.
+Our first hypothesis was that historical ticket prices would exhibit identifiable patterns and trends.
+Through our analysis of historical data and other relevant factors, we were able to confirm this hypothesis by identifying patterns and trends in ticket prices over time.
+
+Our second hypothesis proposed that the time at which flight ticket data is collected would have a significant impact on ticket prices.
+Our analysis supported this hypothesis, revealing that collecting data at certain times during the week resulted in lower ticket prices.
+
+Our third hypothesis asserted that a model trained on historical data could accurately predict future ticket prices.
+To test this hypothesis, we created and trained a predictive model using machine learning techniques.
+Our model considered various factors known to affect ticket prices, including the time at which flight ticket data is collected and airline-specific factors.
+We found that our model had a reasonable level of predictive accuracy, as indicated by its R-squared value.
+
+In response to our research questions, we discovered several primary factors influencing ticket prices for Lufthansa and Swiss flights to Sao Paulo and NYC.
+These included tot\_duration\_seconds, hour\_scrap, airline\_company\_dummy, destination\_dummy, out\_dep\_time\_dummy, and in\_arr\_time\_dummy.
+We also found that the time at which flight ticket data is collected had a significant impact on ticket prices, with certain times during the week resulting in lower prices.
+The optimal time to collect flight ticket data to minimize cost would depend on the specific combination of destination, airline company, and day of week.
+Finally, our predictive model trained on historical data proved reasonably accurate in predicting future ticket prices.
 
 \subsection{Limitations and Challenges}
 \label{sec:limitation}
