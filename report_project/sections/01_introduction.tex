@@ -76,17 +76,139 @@ By cleaning and preprocessing the data, its accuracy is ensured and it is ready 
 This enables identification of patterns and trends in the data, which form the basis of a predictive model.
 By using tools such as Pandas and Python, large amounts of data can be efficiently manipulated and analyzed.
 
-\section{Approach}
-\label{chap:approach}
-The data is visualized using Seaborn and Matplotlib libraries in Python.
-These libraries provide powerful tools for creating informative and attractive visualizations of complex datasets.
-By visualizing the data, a better understanding of patterns and trends in ticket prices over time can be gained.
+\subsection{Data visualizations}
+\label{sec:data}
+
+In our analysis of flight prices, we used the Seaborn and Matplotlib libraries in Python to create visualizations of our data.
+These powerful tools allowed us to gain insights into trends and factors influencing ticket prices over time.
+Our goal was to identify potential features for use in a predictive model.
+
+One of the visualizations we created was a simple bar chart showing the number and frequency of flights to New York City and Sao Paulo operated by Lufthansa and Swiss Airline.
+As shown in Figure~\ref{fig:bar_pl}, we observed that Lufthansa operates more flights to Sao Paulo $(53.16\%)$, while Swiss Airline has a higher number of flights to New York City $(51.46\%)$.
+However, the differences were not significant enough to suggest a higher popularity of one destination over another or a dominance of one airline company over another.
+This made the two destinations and airlines comparable in terms of price.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/1_dest_num_flights.png}
+    \caption{Bar chart showing the number and frequency of flights to New York City and Sao Paulo operated by Lufthansa and Swiss Airline.}
+    \label{fig:bar_pl}
+\end{figure}
+
+We also created additional stacked bar charts, shown in Figure~\ref{fig:stacked}, that display the minimum ticket price depending on the day of the week on which the flight is booked.
+These charts allowed for easy visual comparison between the two companies for each destination.
+We observed a clear variation in prices, mainly due to Swiss Airline, which tends to increase or decrease its prices more than Lufthansa.
+For flights to New York City, shown in Figure~\ref{fig:stack_left}, booking on Monday, Tuesday, Saturday or Sunday would be more beneficial.
+For flights to Sao Paulo, shown in Figure~\ref{fig:stack_right}, the price with Swiss Airline was significantly lower on Tuesday compared to other days of the week.
+\begin{figure}
+    \centering
+    \subfigure[Stacked bar chart for flights to New York]{
+      \includegraphics[width=0.45\textwidth]{images/2_1_day_ticket_price.png}
+      \label{fig:stack_left}
+    }
+    \subfigure[Stacked bar chart for flights to Sao Paulo]{
+      \includegraphics[width=0.45\textwidth]{images/2_2_day_ticket_price.png}
+      \label{fig:stack_right}
+    }
+    \caption{Stacked bar charts showing the minimum ticket price for flights to New York City and Sao Paulo depending on the day of the week, operated by Lufthansa and Swiss Airline.}
+    \label{fig:stacked}
+\end{figure}
+
+The second type of plot allows us to see the distribution of flight prices, shown by Figure~\ref{fig:box}.
+These boxplots especially draw attention to outliers, representing prices that deviated from the typical price range of an airline.
+The Figure~\ref{fig:box_left} reveals that, in the case of flights to New York City, there is a noticeable and higher variability in prices associated with Swiss Airline.
+The opposite can be observed in the case of Sao Paulo, shown by Figure~\ref{fig:box_right}. Overall, prices are around 1000 Euros for New York City, but prices can go until 2000 Euros for Sao Paulo.
+The mean shows that Swiss Airline offers lower prices specifically for each destination, in average.
+\begin{figure}
+    \centering
+    \subfigure[Boxplot for flights to New York]{
+      \includegraphics[width=0.45\textwidth]{images/3_1_cities_prices.png}
+      \label{fig:box_left}
+    }
+    \subfigure[Boxplot for flights to Sao paulo]{
+      \includegraphics[width=0.45\textwidth]{images/3_2_cities_prices.png}
+      \label{fig:box_right}
+    }
+    \caption{Flight price distribution for different airlines to New York City and Sao Paulo.}
+    \label{fig:box}
+\end{figure}
 
 
-\section{Results}
-\label{chap:results}
+\begin{figure}
+    \centering
+    \subfigure[Left figure]{
+      \includegraphics[width=0.45\textwidth]{images/4_1_hour_price_air.png}
+      \label{fig:left}
+    }
+    \subfigure[Right figure]{
+      \includegraphics[width=0.45\textwidth]{images/4_2_hour_price_air.png}
+      \label{fig:right}
+    }
+    \caption{Combined figure}
+    \label{fig:combined}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \subfigure[Left figure]{
+      \includegraphics[width=0.45\textwidth]{images/5_1_day_price_air.png}
+      \label{fig:left}
+    }
+    \subfigure[Right figure]{
+      \includegraphics[width=0.45\textwidth]{images/5_2_day_price_air.png}
+      \label{fig:right}
+    }
+    \caption{Combined figure}
+    \label{fig:combined}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \subfigure[Left figure]{
+      \includegraphics[width=0.45\textwidth]{images/6_1_price_duration.png}
+      \label{fig:left}
+    }
+    \subfigure[Right figure]{
+      \includegraphics[width=0.45\textwidth]{images/6_2_price_duration.png}
+      \label{fig:right}
+    }
+    \caption{Combined figure}
+    \label{fig:combined}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \subfigure[Left figure]{
+      \includegraphics[width=1\textwidth]{images/7_1_heatmap.png}
+      \label{fig:left}
+    }
+    \subfigure[Right figure]{
+      \includegraphics[width=1\textwidth]{images/7_2_heatmap.png}
+      \label{fig:right}
+    }
+    \caption{Combined figure}
+    \label{fig:combined}
+\end{figure}
+
+% \begin{figure}
+%     \centering
+%     \subfigure[Left figure]{
+%       \includegraphics[width=0.45\textwidth]{images/}
+%       \label{fig:left}
+%     }
+%     \subfigure[Right figure]{
+%       \includegraphics[width=0.45\textwidth]{images/}
+%       \label{fig:right}
+%     }
+%     \caption{Combined figure}
+%     \label{fig:combined}
+% \end{figure}
+
+
+\subsection{Data modelling}
+\label{sec:data}
 Describe your final data analysis results and everything that you discovered on the way the put you forward and you think is worth describing here.
 Elaborate on the significance of your findings/results and convey your thoughts. 
+
 
 \section{Discussion}
 \label{chap:discussion}
